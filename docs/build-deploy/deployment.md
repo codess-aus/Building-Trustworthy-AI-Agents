@@ -574,32 +574,32 @@ az containerapp ingress traffic set \
 
 <div class="resource-links">
 
-### 📚 Microsoft Learn Resources
+### 📚 Microsoft Learn Resources  
 
-- [Azure Container Apps Documentation](https://learn.microsoft.com/azure/container-apps/)
-
-
-- [Azure Functions for Python](https://learn.microsoft.com/azure/azure-functions/functions-reference-python)
+- [Azure Container Apps Documentation](https://learn.microsoft.com/azure/container-apps/)  
 
 
-- [AKS Best Practices](https://learn.microsoft.com/azure/aks/best-practices)
+- [Azure Functions for Python](https://learn.microsoft.com/azure/azure-functions/functions-reference-python)  
 
 
-- [CI/CD for Azure](https://learn.microsoft.com/azure/devops/pipelines/)
+- [AKS Best Practices](https://learn.microsoft.com/azure/aks/best-practices)  
 
 
-- [Azure Monitor and Application Insights](https://learn.microsoft.com/azure/azure-monitor/)
+- [CI/CD for Azure](https://learn.microsoft.com/azure/devops/pipelines/)  
 
 
-### 📖 Additional Documentation
-
-- [Container Apps Deployment](https://docs.microsoft.com/azure/container-apps/deploy)
+- [Azure Monitor and Application Insights](https://learn.microsoft.com/azure/azure-monitor/)  
 
 
-- [Managed Identity Documentation](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/)
+### 📖 Additional Documentation  
+
+- [Container Apps Deployment](https://docs.microsoft.com/azure/container-apps/deploy)  
 
 
-- [Azure DevOps Documentation](https://docs.microsoft.com/azure/devops/)
+- [Managed Identity Documentation](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/)  
+
+
+- [Azure DevOps Documentation](https://docs.microsoft.com/azure/devops/)  
 
 
 </div>
