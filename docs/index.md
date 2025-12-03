@@ -74,17 +74,27 @@ This guide is designed for:
 Expand your knowledge with these official Microsoft resources:
 
 - [Introduction to AI](https://learn.microsoft.com/training/modules/introduction-to-ai/)
+
 - [Responsible AI Principles](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
+
 - [Azure AI Services](https://learn.microsoft.com/azure/ai-services/)
+
 - [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/)
+
 - [AI Security Best Practices](https://learn.microsoft.com/security/ai/)
+
 - [Privacy in Azure](https://learn.microsoft.com/azure/compliance/offerings/)
+
 
 ### 📖 Additional Documentation
 
 - [Azure AI Documentation](https://docs.microsoft.com/azure/ai/)
+
 - [Microsoft Security Documentation](https://docs.microsoft.com/security/)
+
 - [Microsoft Privacy Documentation](https://docs.microsoft.com/compliance/)
+
 - [Azure Architecture Center](https://docs.microsoft.com/azure/architecture/)
+
 
 </div>

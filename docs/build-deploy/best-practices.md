@@ -450,14 +450,26 @@ agent:
 ### 📚 Microsoft Learn Resources
 
 - [Azure AI Best Practices](https://learn.microsoft.com/azure/ai-services/openai/concepts/best-practices)
+
+
 - [Prompt Engineering Guide](https://learn.microsoft.com/azure/ai-services/openai/concepts/advanced-prompt-engineering)
+
+
 - [Performance Optimization](https://learn.microsoft.com/azure/ai-services/openai/how-to/performance)
+
+
 - [Monitoring AI Applications](https://learn.microsoft.com/azure/ai-services/openai/how-to/monitoring)
+
 
 ### 📖 Additional Documentation
 
 - [Testing Best Practices](https://docs.microsoft.com/azure/architecture/best-practices/testing)
+
+
 - [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+
+
 - [Azure Architecture Patterns](https://docs.microsoft.com/azure/architecture/patterns/)
+
 
 </div>

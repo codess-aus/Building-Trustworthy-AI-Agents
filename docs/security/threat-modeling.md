@@ -606,14 +606,21 @@ class ThreatMonitor:
 ### 📚 Microsoft Learn Resources
 
 - [Microsoft Threat Modeling Tool](https://learn.microsoft.com/azure/security/develop/threat-modeling-tool)
+
 - [Azure Security Best Practices](https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns)
+
 - [STRIDE Methodology](https://learn.microsoft.com/previous-versions/commerce-server/ee823878(v=cs.20))
+
 - [AI Red Teaming](https://learn.microsoft.com/security/ai-red-team/)
+
 
 ### 📖 Additional Documentation
 
 - [OWASP AI Security](https://owasp.org/www-project-ai-security-and-privacy-guide/)
+
 - [MITRE ATT&CK for AI](https://atlas.mitre.org/)
+
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
 
 </div>

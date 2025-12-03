@@ -497,14 +497,21 @@ class SessionManager:
 ### 📚 Microsoft Learn Resources
 
 - [Azure AD Authentication](https://learn.microsoft.com/azure/active-directory/develop/)
+
 - [Managed Identity](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/)
+
 - [Azure RBAC](https://learn.microsoft.com/azure/role-based-access-control/)
+
 - [API Management Authentication](https://learn.microsoft.com/azure/api-management/api-management-authentication-policies)
+
 
 ### 📖 Additional Documentation
 
 - [OAuth 2.0 Specification](https://oauth.net/2/)
+
 - [OpenID Connect](https://openid.net/connect/)
+
 - [JWT.io](https://jwt.io/)
+
 
 </div>

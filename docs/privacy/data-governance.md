@@ -312,12 +312,17 @@ class DataCatalog:
 ### 📚 Microsoft Learn Resources
 
 - [Azure Purview Data Governance](https://learn.microsoft.com/azure/purview/)
+
 - [Data Classification in Azure](https://learn.microsoft.com/azure/information-protection/what-is-information-protection)
+
 - [Azure Data Catalog](https://learn.microsoft.com/azure/data-catalog/)
+
 
 ### 📖 Additional Documentation
 
 - [DAMA DMBOK Framework](https://www.dama.org/cpages/body-of-knowledge)
+
 - [Data Governance Best Practices](https://docs.microsoft.com/azure/architecture/data-guide/)
+
 
 </div>

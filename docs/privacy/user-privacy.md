@@ -370,12 +370,17 @@ class PrivacyNotifications:
 ### 📚 Microsoft Learn Resources
 
 - [Privacy in Azure](https://learn.microsoft.com/azure/compliance/offerings/)
+
 - [User Rights Management](https://learn.microsoft.com/azure/active-directory/identity-protection/)
+
 - [Consent Management](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview)
+
 
 ### 📖 Additional Documentation
 
 - [GDPR User Rights](https://gdpr.eu/right-to-be-forgotten/)
+
 - [CCPA Consumer Rights](https://oag.ca.gov/privacy/ccpa)
+
 
 </div>

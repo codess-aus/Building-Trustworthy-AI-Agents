@@ -479,16 +479,25 @@ class ComplianceDocumentation:
 ### 📚 Microsoft Learn Resources
 
 - [Microsoft Compliance Center](https://learn.microsoft.com/microsoft-365/compliance/)
+
 - [Azure Compliance Documentation](https://learn.microsoft.com/azure/compliance/)
+
 - [GDPR Compliance in Azure](https://learn.microsoft.com/compliance/regulatory/gdpr)
+
 - [Microsoft Trust Center](https://www.microsoft.com/trust-center)
+
 
 ### 📖 Additional Documentation
 
 - [GDPR Official Text](https://gdpr.eu/)
+
 - [CCPA Regulations](https://oag.ca.gov/privacy/ccpa)
+
 - [HIPAA Requirements](https://www.hhs.gov/hipaa/)
+
 - [ISO 27701 Privacy Standard](https://www.iso.org/standard/71670.html)
+
 - [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+
 
 </div>

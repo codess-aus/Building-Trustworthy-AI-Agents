@@ -542,16 +542,25 @@ Explore detailed privacy topics:
 ### 📚 Microsoft Learn Resources
 
 - [Azure Privacy Documentation](https://learn.microsoft.com/azure/compliance/offerings/)
+
 - [Data Protection in Azure](https://learn.microsoft.com/azure/security/fundamentals/data-encryption-best-practices)
+
 - [Azure Confidential Computing](https://learn.microsoft.com/azure/confidential-computing/)
+
 - [Microsoft Privacy Principles](https://www.microsoft.com/trust-center/privacy)
+
 - [Responsible AI Privacy](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
+
 
 ### 📖 Additional Documentation
 
 - [GDPR Compliance](https://gdpr.eu/)
+
 - [CCPA Requirements](https://oag.ca.gov/privacy/ccpa)
+
 - [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+
 - [ISO 27701 Privacy Standard](https://www.iso.org/standard/71670.html)
+
 
 </div>

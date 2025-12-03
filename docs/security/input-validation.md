@@ -504,12 +504,17 @@ class TestInputValidation:
 ### 📚 Microsoft Learn Resources
 
 - [Input Validation Best Practices](https://learn.microsoft.com/security/engineering/input-validation)
+
 - [OWASP Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+
 - [Azure Web Application Firewall](https://learn.microsoft.com/azure/web-application-firewall/)
+
 
 ### 📖 Additional Documentation
 
 - [Pydantic Documentation](https://docs.pydantic.dev/)
+
 - [Bleach Documentation](https://bleach.readthedocs.io/)
+
 
 </div>

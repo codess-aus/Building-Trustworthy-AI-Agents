@@ -331,14 +331,26 @@ Now that you have a basic agent running:
 ### 📚 Microsoft Learn Resources
 
 - [Quickstart: Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/quickstart)
+
+
 - [Semantic Kernel Quickstart](https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide)
+
+
 - [Azure AI SDK Samples](https://learn.microsoft.com/azure/ai-services/openai/samples)
+
+
 - [Building Your First Agent](https://learn.microsoft.com/azure/ai-services/agents/quickstart)
+
 
 ### 📖 Additional Documentation
 
 - [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel/)
+
+
 - [Azure AI Services Documentation](https://docs.microsoft.com/azure/ai-services/)
+
+
 - [Python Azure SDK](https://docs.microsoft.com/python/api/overview/azure/)
+
 
 </div>

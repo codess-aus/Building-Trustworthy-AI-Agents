@@ -416,15 +416,29 @@ Explore detailed security topics:
 ### 📚 Microsoft Learn Resources
 
 - [Azure AI Security Best Practices](https://learn.microsoft.com/security/ai/)
+
+
 - [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/)
+
+
 - [Azure Security Documentation](https://learn.microsoft.com/azure/security/)
+
+
 - [Responsible AI Security](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
+
+
 - [Azure Key Vault](https://learn.microsoft.com/azure/key-vault/)
+
 
 ### 📖 Additional Documentation
 
 - [OWASP AI Security](https://owasp.org/www-project-ai-security-and-privacy-guide/)
+
+
 - [Microsoft Security Response Center](https://msrc.microsoft.com/)
+
+
 - [Azure Security Benchmark](https://docs.microsoft.com/security/benchmark/azure/)
+
 
 </div>
