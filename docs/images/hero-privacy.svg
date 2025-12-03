@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#grad4)"/>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">Privacy &amp; Data Protection</text>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle">Safeguarding user data and maintaining trust</text>
+  <g transform="translate(570, 50)">
+    <path d="M 30 0 Q 45 0 45 15 L 45 40 L 15 40 L 15 15 Q 15 0 30 0 M 30 15 Q 25 15 25 20 L 25 30 L 35 30 L 35 20 Q 35 15 30 15" fill="white" opacity="0.3"/>
+  </g>
+</svg>
