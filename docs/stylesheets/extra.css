@@ -1,0 +1,110 @@
+/* Gradient background for header */
+.md-header {
+  background: linear-gradient(90deg, #1e3a8a 0%, #0d9488 100%);
+  background: linear-gradient(90deg, var(--md-primary-fg-color) 0%, var(--md-accent-fg-color) 100%);
+}
+
+/* Gradient for hero section */
+.md-typeset h1 {
+  background: linear-gradient(90deg, #1e3a8a 0%, #0d9488 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero image styling */
+.hero-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Resource links section styling */
+.resource-links {
+  margin-top: 3em;
+  padding: 2em;
+  background: rgba(30, 58, 138, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid #0d9488;
+}
+
+[data-md-color-scheme="slate"] .resource-links {
+  background: rgba(13, 148, 136, 0.1);
+}
+
+.resource-links h3 {
+  color: #0d9488;
+  margin-top: 0;
+}
+
+.resource-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resource-links li {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.resource-links li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #0d9488;
+  font-weight: bold;
+}
+
+/* Improve accessibility - focus indicators */
+a:focus,
+button:focus {
+  outline: 2px solid #0d9488;
+  outline-offset: 2px;
+}
+
+/* Skip to main content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #0d9488;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Enhanced card styling for better visual hierarchy */
+.md-typeset .admonition {
+  border-left: 4px solid #0d9488;
+}
+
+/* Gradient accent on code blocks */
+.md-typeset pre > code {
+  border-top: 2px solid;
+  border-image: linear-gradient(90deg, #1e3a8a 0%, #0d9488 100%) 1;
+}
+
+/* Footer gradient */
+.md-footer {
+  background: linear-gradient(90deg, #1e3a8a 0%, #0d9488 100%);
+}

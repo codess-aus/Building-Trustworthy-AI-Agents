@@ -1,0 +1,144 @@
+site_name: Building Trustworthy AI Agents
+site_url: https://codess-aus.github.io/Building-Trustworthy-AI-Agents/
+site_description: A comprehensive guide to building safe, secure, and privacy-focused AI agents
+site_author: Microsoft
+
+# Repository
+repo_name: codess-aus/Building-Trustworthy-AI-Agents
+repo_url: https://github.com/codess-aus/Building-Trustworthy-AI-Agents
+
+# Copyright
+copyright: Copyright &copy; 2024 Microsoft
+
+# Configuration
+theme:
+  name: material
+  palette:
+    # Light mode with blue to sea green gradient
+    - scheme: default
+      primary: blue
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode with blue to sea green gradient
+    - scheme: slate
+      primary: blue
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+    - toc.integrate
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/robot
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      lang: en
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Build & Deploy AI Agents:
+      - build-deploy/index.md
+      - Getting Started: build-deploy/getting-started.md
+      - Best Practices: build-deploy/best-practices.md
+      - Deployment Strategies: build-deploy/deployment.md
+  - Security Considerations:
+      - security/index.md
+      - Authentication & Authorization: security/auth.md
+      - Input Validation: security/input-validation.md
+      - Threat Modeling: security/threat-modeling.md
+  - Privacy & Data Protection:
+      - privacy/index.md
+      - Data Governance: privacy/data-governance.md
+      - User Privacy: privacy/user-privacy.md
+      - Compliance: privacy/compliance.md
+  - Resources: resources.md
+
+# Extra CSS for gradient
+extra_css:
+  - stylesheets/extra.css
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codess-aus/Building-Trustworthy-AI-Agents
+    - icon: fontawesome/brands/microsoft
+      link: https://www.microsoft.com
+  
+  # Analytics (optional - can be configured later)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
