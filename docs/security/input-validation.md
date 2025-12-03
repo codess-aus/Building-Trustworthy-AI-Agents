@@ -215,7 +215,8 @@ class FileValidator:
         self.allowed_mime_types = {
             'text/plain',
             'application/pdf',
-            'application/json'
+            'application/json',
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
         }
     
     def validate_file(self, file_path: Path) -> tuple:

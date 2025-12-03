@@ -283,6 +283,8 @@ async def export_user_data(
 Collect analytics while preserving privacy:
 
 ```python
+import numpy as np
+
 class PrivacyPreservingAnalytics:
     def __init__(self, epsilon: float = 1.0):
         self.epsilon = epsilon  # Privacy budget
