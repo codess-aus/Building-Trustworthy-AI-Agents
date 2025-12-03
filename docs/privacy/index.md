@@ -538,27 +538,19 @@ Explore detailed privacy topics:
 - [Compliance](compliance.md)
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Azure Privacy Documentation](https://learn.microsoft.com/azure/compliance/offerings/)
-
-- [Data Protection in Azure](https://learn.microsoft.com/azure/security/fundamentals/data-encryption-best-practices)
-
-- [Azure Confidential Computing](https://learn.microsoft.com/azure/confidential-computing/)
-
-- [Microsoft Privacy Principles](https://www.microsoft.com/trust-center/privacy)
-
-- [Responsible AI Privacy](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
-
-### 📖 Additional Documentation
-
-- [GDPR Compliance](https://gdpr.eu/)
-
-- [CCPA Requirements](https://oag.ca.gov/privacy/ccpa)
-
-- [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
-
-- [ISO 27701 Privacy Standard](https://www.iso.org/standard/71670.html)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/compliance/offerings/" target="_blank" rel="noopener">Azure Privacy Documentation</a></li>
+<li><a href="https://learn.microsoft.com/azure/security/fundamentals/data-encryption-best-practices" target="_blank" rel="noopener">Data Protection in Azure</a></li>
+<li><a href="https://learn.microsoft.com/azure/confidential-computing/" target="_blank" rel="noopener">Azure Confidential Computing</a></li>
+<li><a href="https://www.microsoft.com/trust-center/privacy" target="_blank" rel="noopener">Microsoft Privacy Principles</a></li>
+<li><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai" target="_blank" rel="noopener">Responsible AI Privacy</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://gdpr.eu/" target="_blank" rel="noopener">GDPR Compliance</a></li>
+<li><a href="https://oag.ca.gov/privacy/ccpa" target="_blank" rel="noopener">CCPA Requirements</a></li>
+<li><a href="https://www.nist.gov/privacy-framework" target="_blank" rel="noopener">NIST Privacy Framework</a></li>
+<li><a href="https://www.iso.org/standard/71670.html" target="_blank" rel="noopener">ISO 27701 Privacy Standard</a></li>
+</ul>
 </div>

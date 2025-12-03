@@ -412,25 +412,18 @@ Explore detailed security topics:
 - [Threat Modeling](threat-modeling.md)
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Azure AI Security Best Practices](https://learn.microsoft.com/security/ai/)
-
-- [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/)
-
-- [Azure Security Documentation](https://learn.microsoft.com/azure/security/)
-
-- [Responsible AI Security](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
-
-- [Azure Key Vault](https://learn.microsoft.com/azure/key-vault/)
-
-### 📖 Additional Documentation
-
-- [OWASP AI Security](https://owasp.org/www-project-ai-security-and-privacy-guide/)
-
-- [Microsoft Security Response Center](https://msrc.microsoft.com/)
-
-- [Azure Security Benchmark](https://docs.microsoft.com/security/benchmark/azure/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/security/ai/" target="_blank" rel="noopener">Azure AI Security Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/content-safety/" target="_blank" rel="noopener">Azure AI Content Safety</a></li>
+<li><a href="https://learn.microsoft.com/azure/security/" target="_blank" rel="noopener">Azure Security Documentation</a></li>
+<li><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai" target="_blank" rel="noopener">Responsible AI Security</a></li>
+<li><a href="https://learn.microsoft.com/azure/key-vault/" target="_blank" rel="noopener">Azure Key Vault</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://owasp.org/www-project-ai-security-and-privacy-guide/" target="_blank" rel="noopener">OWASP AI Security</a></li>
+<li><a href="https://msrc.microsoft.com/" target="_blank" rel="noopener">Microsoft Security Response Center</a></li>
+<li><a href="https://docs.microsoft.com/security/benchmark/azure/" target="_blank" rel="noopener">Azure Security Benchmark</a></li>
+</ul>
 </div>

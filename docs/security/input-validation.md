@@ -500,19 +500,15 @@ class TestInputValidation:
 ```
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Input Validation Best Practices](https://learn.microsoft.com/security/engineering/input-validation)
-
-- [OWASP Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
-
-- [Azure Web Application Firewall](https://learn.microsoft.com/azure/web-application-firewall/)
-
-### 📖 Additional Documentation
-
-- [Pydantic Documentation](https://docs.pydantic.dev/)
-
-- [Bleach Documentation](https://bleach.readthedocs.io/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/security/engineering/input-validation" target="_blank" rel="noopener">Input Validation Best Practices</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html" target="_blank" rel="noopener">OWASP Input Validation Cheat Sheet</a></li>
+<li><a href="https://learn.microsoft.com/azure/web-application-firewall/" target="_blank" rel="noopener">Azure Web Application Firewall</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://docs.pydantic.dev/" target="_blank" rel="noopener">Pydantic Documentation</a></li>
+<li><a href="https://bleach.readthedocs.io/" target="_blank" rel="noopener">Bleach Documentation</a></li>
+</ul>
 </div>

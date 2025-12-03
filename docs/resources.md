@@ -406,24 +406,19 @@ Found a great resource we should include? Have suggestions for improving this gu
 ---
 
 <div class="resource-links">
-
-### 📚 Start Learning Today
-
-Ready to dive deeper? Start with these curated learning paths:
-
-1. **Beginners**: Start with [Azure AI Fundamentals](https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/)
-2. **Developers**: Explore [Semantic Kernel](https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide)
-3. **Architects**: Review [AI Architecture Patterns](https://docs.microsoft.com/azure/architecture/ai/)
-4. **Security Professionals**: Study [AI Security Best Practices](https://learn.microsoft.com/security/ai/)
-
-### 🎯 Quick Links
-
-- [Azure Portal](https://portal.azure.com/)
-
-- [Azure AI Studio](https://ai.azure.com/)
-
-- [Microsoft Learn](https://learn.microsoft.com/)
-
-- [Azure Documentation](https://docs.microsoft.com/azure/)
-
+<h3>📚 Start Learning Today</h3>
+<p>Ready to dive deeper? Start with these curated learning paths:</p>
+<ol>
+<li><strong>Beginners</strong>: Start with <a href="https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" rel="noopener">Azure AI Fundamentals</a></li>
+<li><strong>Developers</strong>: Explore <a href="https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide" target="_blank" rel="noopener">Semantic Kernel</a></li>
+<li><strong>Architects</strong>: Review <a href="https://docs.microsoft.com/azure/architecture/ai/" target="_blank" rel="noopener">AI Architecture Patterns</a></li>
+<li><strong>Security Professionals</strong>: Study <a href="https://learn.microsoft.com/security/ai/" target="_blank" rel="noopener">AI Security Best Practices</a></li>
+</ol>
+<h3>🎯 Quick Links</h3>
+<ul>
+<li><a href="https://portal.azure.com/" target="_blank" rel="noopener">Azure Portal</a></li>
+<li><a href="https://ai.azure.com/" target="_blank" rel="noopener">Azure AI Studio</a></li>
+<li><a href="https://learn.microsoft.com/" target="_blank" rel="noopener">Microsoft Learn</a></li>
+<li><a href="https://docs.microsoft.com/azure/" target="_blank" rel="noopener">Azure Documentation</a></li>
+</ul>
 </div>

@@ -154,25 +154,18 @@ Continue to the following sections to dive deeper into specific aspects of build
 - [Deployment Strategies](deployment.md) - Deploy your agents effectively
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Build AI Apps with Azure AI Studio](https://learn.microsoft.com/azure/ai-studio/)
-
-- [Develop AI Agents with Semantic Kernel](https://learn.microsoft.com/semantic-kernel/)
-
-- [Azure AI Agent Service](https://learn.microsoft.com/azure/ai-services/agents/)
-
-- [Prompt Engineering Techniques](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering)
-
-- [RAG Pattern Implementation](https://learn.microsoft.com/azure/search/retrieval-augmented-generation-overview)
-
-### 📖 Additional Documentation
-
-- [Azure AI SDK Documentation](https://docs.microsoft.com/azure/ai-services/sdks/)
-
-- [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel/)
-
-- [Agent Architecture Patterns](https://docs.microsoft.com/azure/architecture/ai/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/ai-studio/" target="_blank" rel="noopener">Build AI Apps with Azure AI Studio</a></li>
+<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Develop AI Agents with Semantic Kernel</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/agents/" target="_blank" rel="noopener">Azure AI Agent Service</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering" target="_blank" rel="noopener">Prompt Engineering Techniques</a></li>
+<li><a href="https://learn.microsoft.com/azure/search/retrieval-augmented-generation-overview" target="_blank" rel="noopener">RAG Pattern Implementation</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://docs.microsoft.com/azure/ai-services/sdks/" target="_blank" rel="noopener">Azure AI SDK Documentation</a></li>
+<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel Documentation</a></li>
+<li><a href="https://docs.microsoft.com/azure/architecture/ai/" target="_blank" rel="noopener">Agent Architecture Patterns</a></li>
+</ul>
 </div>

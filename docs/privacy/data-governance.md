@@ -308,19 +308,15 @@ class DataCatalog:
 ```
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Azure Purview Data Governance](https://learn.microsoft.com/azure/purview/)
-
-- [Data Classification in Azure](https://learn.microsoft.com/azure/information-protection/what-is-information-protection)
-
-- [Azure Data Catalog](https://learn.microsoft.com/azure/data-catalog/)
-
-### 📖 Additional Documentation
-
-- [DAMA DMBOK Framework](https://www.dama.org/cpages/body-of-knowledge)
-
-- [Data Governance Best Practices](https://docs.microsoft.com/azure/architecture/data-guide/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/purview/" target="_blank" rel="noopener">Azure Purview Data Governance</a></li>
+<li><a href="https://learn.microsoft.com/azure/information-protection/what-is-information-protection" target="_blank" rel="noopener">Data Classification in Azure</a></li>
+<li><a href="https://learn.microsoft.com/azure/data-catalog/" target="_blank" rel="noopener">Azure Data Catalog</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://www.dama.org/cpages/body-of-knowledge" target="_blank" rel="noopener">DAMA DMBOK Framework</a></li>
+<li><a href="https://docs.microsoft.com/azure/architecture/data-guide/" target="_blank" rel="noopener">Data Governance Best Practices</a></li>
+</ul>
 </div>

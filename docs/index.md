@@ -68,31 +68,21 @@ This guide is designed for:
 - **Architects**: Designing secure and scalable AI solutions
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-Expand your knowledge with these official Microsoft resources:
-
-- [Introduction to AI](https://learn.microsoft.com/training/modules/introduction-to-ai/)
-
-- [Responsible AI Principles](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
-
-- [Azure AI Services](https://learn.microsoft.com/azure/ai-services/)
-
-- [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/)
-
-- [AI Security Best Practices](https://learn.microsoft.com/security/ai/)
-
-- [Privacy in Azure](https://learn.microsoft.com/azure/compliance/offerings/)
-
-### 📖 Additional Documentation
-
-- [Azure AI Documentation](https://docs.microsoft.com/azure/ai/)
-
-- [Microsoft Security Documentation](https://docs.microsoft.com/security/)
-
-- [Microsoft Privacy Documentation](https://docs.microsoft.com/compliance/)
-
-- [Azure Architecture Center](https://docs.microsoft.com/azure/architecture/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<p>Expand your knowledge with these official Microsoft resources:</p>
+<ul>
+<li><a href="https://learn.microsoft.com/training/modules/introduction-to-ai/" target="_blank" rel="noopener">Introduction to AI</a></li>
+<li><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai" target="_blank" rel="noopener">Responsible AI Principles</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/" target="_blank" rel="noopener">Azure AI Services</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/" target="_blank" rel="noopener">Azure OpenAI Service</a></li>
+<li><a href="https://learn.microsoft.com/security/ai/" target="_blank" rel="noopener">AI Security Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/azure/compliance/offerings/" target="_blank" rel="noopener">Privacy in Azure</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://docs.microsoft.com/azure/ai/" target="_blank" rel="noopener">Azure AI Documentation</a></li>
+<li><a href="https://docs.microsoft.com/security/" target="_blank" rel="noopener">Microsoft Security Documentation</a></li>
+<li><a href="https://docs.microsoft.com/compliance/" target="_blank" rel="noopener">Microsoft Privacy Documentation</a></li>
+<li><a href="https://docs.microsoft.com/azure/architecture/" target="_blank" rel="noopener">Azure Architecture Center</a></li>
+</ul>
 </div>

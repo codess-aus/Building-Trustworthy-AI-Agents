@@ -602,23 +602,17 @@ class ThreatMonitor:
 ```
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Microsoft Threat Modeling Tool](https://learn.microsoft.com/azure/security/develop/threat-modeling-tool)
-
-- [Azure Security Best Practices](https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns)
-
-- [STRIDE Methodology](https://learn.microsoft.com/previous-versions/commerce-server/ee823878(v=cs.20))
-
-- [AI Red Teaming](https://learn.microsoft.com/security/ai-red-team/)
-
-### 📖 Additional Documentation
-
-- [OWASP AI Security](https://owasp.org/www-project-ai-security-and-privacy-guide/)
-
-- [MITRE ATT&CK for AI](https://atlas.mitre.org/)
-
-- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/security/develop/threat-modeling-tool" target="_blank" rel="noopener">Microsoft Threat Modeling Tool</a></li>
+<li><a href="https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns" target="_blank" rel="noopener">Azure Security Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/previous-versions/commerce-server/ee823878(v=cs.20)" target="_blank" rel="noopener">STRIDE Methodology</a></li>
+<li><a href="https://learn.microsoft.com/security/ai-red-team/" target="_blank" rel="noopener">AI Red Teaming</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://owasp.org/www-project-ai-security-and-privacy-guide/" target="_blank" rel="noopener">OWASP AI Security</a></li>
+<li><a href="https://atlas.mitre.org/" target="_blank" rel="noopener">MITRE ATT&CK for AI</a></li>
+<li><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">NIST AI Risk Management Framework</a></li>
+</ul>
 </div>

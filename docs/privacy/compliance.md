@@ -475,27 +475,19 @@ class ComplianceDocumentation:
 - [ ] Scheduled regular compliance audits
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Microsoft Compliance Center](https://learn.microsoft.com/microsoft-365/compliance/)
-
-- [Azure Compliance Documentation](https://learn.microsoft.com/azure/compliance/)
-
-- [GDPR Compliance in Azure](https://learn.microsoft.com/compliance/regulatory/gdpr)
-
-- [Microsoft Trust Center](https://www.microsoft.com/trust-center)
-
-### 📖 Additional Documentation
-
-- [GDPR Official Text](https://gdpr.eu/)
-
-- [CCPA Regulations](https://oag.ca.gov/privacy/ccpa)
-
-- [HIPAA Requirements](https://www.hhs.gov/hipaa/)
-
-- [ISO 27701 Privacy Standard](https://www.iso.org/standard/71670.html)
-
-- [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/microsoft-365/compliance/" target="_blank" rel="noopener">Microsoft Compliance Center</a></li>
+<li><a href="https://learn.microsoft.com/azure/compliance/" target="_blank" rel="noopener">Azure Compliance Documentation</a></li>
+<li><a href="https://learn.microsoft.com/compliance/regulatory/gdpr" target="_blank" rel="noopener">GDPR Compliance in Azure</a></li>
+<li><a href="https://www.microsoft.com/trust-center" target="_blank" rel="noopener">Microsoft Trust Center</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://gdpr.eu/" target="_blank" rel="noopener">GDPR Official Text</a></li>
+<li><a href="https://oag.ca.gov/privacy/ccpa" target="_blank" rel="noopener">CCPA Regulations</a></li>
+<li><a href="https://www.hhs.gov/hipaa/" target="_blank" rel="noopener">HIPAA Requirements</a></li>
+<li><a href="https://www.iso.org/standard/71670.html" target="_blank" rel="noopener">ISO 27701 Privacy Standard</a></li>
+<li><a href="https://www.nist.gov/privacy-framework" target="_blank" rel="noopener">NIST Privacy Framework</a></li>
+</ul>
 </div>

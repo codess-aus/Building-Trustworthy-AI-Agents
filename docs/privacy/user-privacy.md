@@ -366,19 +366,15 @@ class PrivacyNotifications:
 ```
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Privacy in Azure](https://learn.microsoft.com/azure/compliance/offerings/)
-
-- [User Rights Management](https://learn.microsoft.com/azure/active-directory/identity-protection/)
-
-- [Consent Management](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview)
-
-### 📖 Additional Documentation
-
-- [GDPR User Rights](https://gdpr.eu/right-to-be-forgotten/)
-
-- [CCPA Consumer Rights](https://oag.ca.gov/privacy/ccpa)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/compliance/offerings/" target="_blank" rel="noopener">Privacy in Azure</a></li>
+<li><a href="https://learn.microsoft.com/azure/active-directory/identity-protection/" target="_blank" rel="noopener">User Rights Management</a></li>
+<li><a href="https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview" target="_blank" rel="noopener">Consent Management</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://gdpr.eu/right-to-be-forgotten/" target="_blank" rel="noopener">GDPR User Rights</a></li>
+<li><a href="https://oag.ca.gov/privacy/ccpa" target="_blank" rel="noopener">CCPA Consumer Rights</a></li>
+</ul>
 </div>

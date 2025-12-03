@@ -446,23 +446,17 @@ agent:
 ```
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Azure AI Best Practices](https://learn.microsoft.com/azure/ai-services/openai/concepts/best-practices)
-
-- [Prompt Engineering Guide](https://learn.microsoft.com/azure/ai-services/openai/concepts/advanced-prompt-engineering)
-
-- [Performance Optimization](https://learn.microsoft.com/azure/ai-services/openai/how-to/performance)
-
-- [Monitoring AI Applications](https://learn.microsoft.com/azure/ai-services/openai/how-to/monitoring)
-
-### 📖 Additional Documentation
-
-- [Testing Best Practices](https://docs.microsoft.com/azure/architecture/best-practices/testing)
-
-- [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
-
-- [Azure Architecture Patterns](https://docs.microsoft.com/azure/architecture/patterns/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/best-practices" target="_blank" rel="noopener">Azure AI Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/advanced-prompt-engineering" target="_blank" rel="noopener">Prompt Engineering Guide</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/performance" target="_blank" rel="noopener">Performance Optimization</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/monitoring" target="_blank" rel="noopener">Monitoring AI Applications</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://docs.microsoft.com/azure/architecture/best-practices/testing" target="_blank" rel="noopener">Testing Best Practices</a></li>
+<li><a href="https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview" target="_blank" rel="noopener">Application Insights</a></li>
+<li><a href="https://docs.microsoft.com/azure/architecture/patterns/" target="_blank" rel="noopener">Azure Architecture Patterns</a></li>
+</ul>
 </div>

@@ -327,23 +327,17 @@ Now that you have a basic agent running:
 4. Understand [Privacy Requirements](../privacy/index.md)
 
 <div class="resource-links">
-
-### 📚 Microsoft Learn Resources
-
-- [Quickstart: Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/quickstart)
-
-- [Semantic Kernel Quickstart](https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide)
-
-- [Azure AI SDK Samples](https://learn.microsoft.com/azure/ai-services/openai/samples)
-
-- [Building Your First Agent](https://learn.microsoft.com/azure/ai-services/agents/quickstart)
-
-### 📖 Additional Documentation
-
-- [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel/)
-
-- [Azure AI Services Documentation](https://docs.microsoft.com/azure/ai-services/)
-
-- [Python Azure SDK](https://docs.microsoft.com/python/api/overview/azure/)
-
+<h3>📚 Microsoft Learn Resources</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/quickstart" target="_blank" rel="noopener">Quickstart: Azure OpenAI</a></li>
+<li><a href="https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide" target="_blank" rel="noopener">Semantic Kernel Quickstart</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/openai/samples" target="_blank" rel="noopener">Azure AI SDK Samples</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-services/agents/quickstart" target="_blank" rel="noopener">Building Your First Agent</a></li>
+</ul>
+<h3>📖 Additional Documentation</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel Documentation</a></li>
+<li><a href="https://docs.microsoft.com/azure/ai-services/" target="_blank" rel="noopener">Azure AI Services Documentation</a></li>
+<li><a href="https://docs.microsoft.com/python/api/overview/azure/" target="_blank" rel="noopener">Python Azure SDK</a></li>
+</ul>
 </div>
