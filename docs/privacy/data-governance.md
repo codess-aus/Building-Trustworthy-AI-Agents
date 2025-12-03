@@ -30,7 +30,7 @@ class DataGovernance:
             return DataClassification.INTERNAL
         else:
             return DataClassification.PUBLIC
-    
+
     def get_handling_requirements(
         self,
         classification: DataClassification
@@ -74,9 +74,9 @@ from datetime import datetime, timedelta
 
 class DataLifecycle:
     """Manage data through its lifecycle."""
-    
+
     STAGES = ['created', 'active', 'archived', 'deleted']
-    
+
     async def transition_data(
         self,
         data_id: str,
@@ -87,29 +87,29 @@ class DataLifecycle:
         # Verify valid transition
         if not self.is_valid_transition(from_stage, to_stage):
             raise ValueError(f"Invalid transition: {from_stage} -> {to_stage}")
-        
+
         # Apply stage-specific actions
         if to_stage == 'archived':
             await self.archive_data(data_id)
         elif to_stage == 'deleted':
             await self.delete_data(data_id)
-        
+
         # Update metadata
         await self.update_lifecycle_stage(data_id, to_stage)
-    
+
     async def auto_manage_lifecycle(self):
         """Automatically manage data lifecycle based on policies."""
         # Archive old inactive data
         cutoff_active = datetime.utcnow() - timedelta(days=90)
         old_data = await self.find_data_older_than(cutoff_active, 'active')
-        
+
         for data in old_data:
             await self.transition_data(data.id, 'active', 'archived')
-        
+
         # Delete very old archived data
         cutoff_archive = datetime.utcnow() - timedelta(days=365)
         old_archived = await self.find_data_older_than(cutoff_archive, 'archived')
-        
+
         for data in old_archived:
             await self.transition_data(data.id, 'archived', 'deleted')
 ```
@@ -121,7 +121,7 @@ Ensure data quality and integrity:
 ```python
 class DataQuality:
     """Ensure data quality standards."""
-    
+
     def validate_quality(self, data: dict) -> dict:
         """Validate data quality dimensions."""
         return {
@@ -131,18 +131,18 @@ class DataQuality:
             'timeliness': self.check_timeliness(data),
             'validity': self.check_validity(data),
         }
-    
+
     def check_completeness(self, data: dict) -> float:
         """Check if all required fields are present."""
         required_fields = ['user_id', 'timestamp', 'content']
         present = sum(1 for field in required_fields if field in data)
         return present / len(required_fields)
-    
+
     def check_accuracy(self, data: dict) -> float:
         """Check data accuracy against known constraints."""
         checks_passed = 0
         total_checks = 0
-        
+
         # Example: validate timestamp is reasonable
         if 'timestamp' in data:
             total_checks += 1
@@ -152,7 +152,7 @@ class DataQuality:
                     checks_passed += 1
             except:
                 pass
-        
+
         return checks_passed / total_checks if total_checks > 0 else 1.0
 ```
 
@@ -163,10 +163,10 @@ Track data origins and transformations:
 ```python
 class DataLineage:
     """Track data lineage for auditability."""
-    
+
     def __init__(self):
         self.lineage_graph = {}
-    
+
     def record_data_origin(
         self,
         data_id: str,
@@ -183,7 +183,7 @@ class DataLineage:
             'transformations': [],
             'destinations': []
         }
-    
+
     def record_transformation(
         self,
         data_id: str,
@@ -197,7 +197,7 @@ class DataLineage:
                 'output': output_data_id,
                 'timestamp': datetime.utcnow().isoformat(),
             })
-    
+
     def get_lineage(self, data_id: str) -> dict:
         """Get complete lineage for a data item."""
         return self.lineage_graph.get(data_id, {})
@@ -210,10 +210,10 @@ Implement fine-grained access controls:
 ```python
 class DataAccessControl:
     """Control access to data based on policies."""
-    
+
     def __init__(self):
         self.access_policies = {}
-    
+
     def create_policy(
         self,
         data_id: str,
@@ -228,7 +228,7 @@ class DataAccessControl:
             'conditions': conditions,
             'created_at': datetime.utcnow(),
         }
-    
+
     def check_access(
         self,
         user_id: str,
@@ -239,21 +239,21 @@ class DataAccessControl:
         """Check if user can access data."""
         if data_id not in self.access_policies:
             return False
-        
+
         policy = self.access_policies[data_id]
-        
+
         # Check user
         if user_id in policy['allowed_users']:
             return True
-        
+
         # Check roles
         if any(role in policy['allowed_roles'] for role in user_roles):
             return True
-        
+
         # Check conditions
         if self.evaluate_conditions(policy['conditions'], user_id, operation):
             return True
-        
+
         return False
 ```
 
@@ -264,10 +264,10 @@ Maintain a comprehensive data catalog:
 ```python
 class DataCatalog:
     """Catalog of all data assets."""
-    
+
     def __init__(self):
         self.catalog = {}
-    
+
     def register_dataset(
         self,
         dataset_id: str,
@@ -287,23 +287,23 @@ class DataCatalog:
             'tags': metadata.get('tags', []),
             'quality_score': None,
         }
-    
+
     def search_catalog(self, query: str, filters: dict = None) -> list:
         """Search the data catalog."""
         results = []
-        
+
         for dataset_id, metadata in self.catalog.items():
             # Search in name and description
             if (query.lower() in metadata['name'].lower() or
                 query.lower() in metadata.get('description', '').lower()):
-                
+
                 # Apply filters
                 if filters:
                     if not self.matches_filters(metadata, filters):
                         continue
-                
+
                 results.append(metadata)
-        
+
         return results
 ```
 
@@ -317,12 +317,10 @@ class DataCatalog:
 
 - [Azure Data Catalog](https://learn.microsoft.com/azure/data-catalog/)
 
-
 ### 📖 Additional Documentation
 
 - [DAMA DMBOK Framework](https://www.dama.org/cpages/body-of-knowledge)
 
 - [Data Governance Best Practices](https://docs.microsoft.com/azure/architecture/data-guide/)
-
 
 </div>

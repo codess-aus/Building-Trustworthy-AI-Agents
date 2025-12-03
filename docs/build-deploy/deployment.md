@@ -68,16 +68,16 @@ app = func.FunctionApp()
 @app.route(route="agent", methods=["POST"], auth_level=func.AuthLevel.FUNCTION)
 async def process_request(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('AI Agent processing request')
-    
+
     try:
         # Get request data
         req_body = req.get_json()
         user_input = req_body.get('input')
-        
+
         # Process with agent
         agent = AIAgent()
         response = await agent.process(user_input)
-        
+
         return func.HttpResponse(
             json.dumps({"response": response}),
             mimetype="application/json"
@@ -304,7 +304,7 @@ resource "azurerm_container_app" "ai_agent" {
   ingress {
     external_enabled = true
     target_port      = 8000
-    
+
     traffic_weight {
       percentage      = 100
       latest_revision = true
@@ -347,7 +347,7 @@ from datetime import datetime
 async def load_test(url, num_requests, concurrency):
     async with aiohttp.ClientSession() as session:
         start_time = datetime.now()
-        
+
         async def make_request(i):
             try:
                 async with session.post(
@@ -358,21 +358,21 @@ async def load_test(url, num_requests, concurrency):
                     return await response.json()
             except Exception as e:
                 return {"error": str(e)}
-        
+
         # Create batches for concurrent execution
         tasks = []
         for batch_start in range(0, num_requests, concurrency):
             batch_end = min(batch_start + concurrency, num_requests)
             batch_tasks = [
-                make_request(i) 
+                make_request(i)
                 for i in range(batch_start, batch_end)
             ]
             results = await asyncio.gather(*batch_tasks)
             tasks.extend(results)
-        
+
         duration = (datetime.now() - start_time).total_seconds()
         success_count = sum(1 for r in tasks if "error" not in r)
-        
+
         print(f"Total requests: {num_requests}")
         print(f"Successful: {success_count}")
         print(f"Failed: {num_requests - success_count}")
@@ -406,7 +406,7 @@ async def health_check():
         # Check dependencies
         await check_database()
         await check_ai_service()
-        
+
         return {
             "status": "healthy",
             "timestamp": datetime.utcnow().isoformat(),
@@ -449,10 +449,10 @@ tracer = trace.get_tracer(__name__)
 async def process_request(request: dict):
     with tracer.start_as_current_span("process_request") as span:
         span.set_attribute("user_id", request.get("user_id"))
-        
+
         # Your processing logic
         result = await agent.process(request["input"])
-        
+
         span.set_attribute("response_length", len(result))
         return {"response": result}
 ```
@@ -520,29 +520,29 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Login to Azure
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-    
+
     - name: Build and push image
       run: |
         az acr build \
           --registry ${{ secrets.ACR_NAME }} \
           --image ai-agent:${{ github.sha }} \
           --file Dockerfile .
-    
+
     - name: Deploy to Container Apps
       run: |
         az containerapp update \
           --name ai-agent \
           --resource-group ${{ secrets.RESOURCE_GROUP }} \
           --image ${{ secrets.ACR_NAME }}.azurecr.io/ai-agent:${{ github.sha }}
-    
+
     - name: Run health check
       run: |
         sleep 30
@@ -574,32 +574,24 @@ az containerapp ingress traffic set \
 
 <div class="resource-links">
 
-### 📚 Microsoft Learn Resources  
+### 📚 Microsoft Learn Resources
 
-- [Azure Container Apps Documentation](https://learn.microsoft.com/azure/container-apps/)  
+- [Azure Container Apps Documentation](https://learn.microsoft.com/azure/container-apps/)
 
+- [Azure Functions for Python](https://learn.microsoft.com/azure/azure-functions/functions-reference-python)
 
-- [Azure Functions for Python](https://learn.microsoft.com/azure/azure-functions/functions-reference-python)  
+- [AKS Best Practices](https://learn.microsoft.com/azure/aks/best-practices)
 
+- [CI/CD for Azure](https://learn.microsoft.com/azure/devops/pipelines/)
 
-- [AKS Best Practices](https://learn.microsoft.com/azure/aks/best-practices)  
+- [Azure Monitor and Application Insights](https://learn.microsoft.com/azure/azure-monitor/)
 
+### 📖 Additional Documentation
 
-- [CI/CD for Azure](https://learn.microsoft.com/azure/devops/pipelines/)  
+- [Container Apps Deployment](https://docs.microsoft.com/azure/container-apps/deploy)
 
+- [Managed Identity Documentation](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/)
 
-- [Azure Monitor and Application Insights](https://learn.microsoft.com/azure/azure-monitor/)  
-
-
-### 📖 Additional Documentation  
-
-- [Container Apps Deployment](https://docs.microsoft.com/azure/container-apps/deploy)  
-
-
-- [Managed Identity Documentation](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/)  
-
-
-- [Azure DevOps Documentation](https://docs.microsoft.com/azure/devops/)  
-
+- [Azure DevOps Documentation](https://docs.microsoft.com/azure/devops/)
 
 </div>

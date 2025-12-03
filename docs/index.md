@@ -85,7 +85,6 @@ Expand your knowledge with these official Microsoft resources:
 
 - [Privacy in Azure](https://learn.microsoft.com/azure/compliance/offerings/)
 
-
 ### 📖 Additional Documentation
 
 - [Azure AI Documentation](https://docs.microsoft.com/azure/ai/)
@@ -95,6 +94,5 @@ Expand your knowledge with these official Microsoft resources:
 - [Microsoft Privacy Documentation](https://docs.microsoft.com/compliance/)
 
 - [Azure Architecture Center](https://docs.microsoft.com/azure/architecture/)
-
 
 </div>

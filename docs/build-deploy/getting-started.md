@@ -21,7 +21,7 @@ Before you begin building AI agents, ensure you have the following:
     # Create a virtual environment
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-    
+
     # Install core packages
     pip install azure-ai-inference
     pip install azure-identity
@@ -35,7 +35,7 @@ Before you begin building AI agents, ensure you have the following:
     # Create a new project
     dotnet new console -n MyAIAgent
     cd MyAIAgent
-    
+
     # Install NuGet packages
     dotnet add package Azure.AI.Inference
     dotnet add package Azure.Identity
@@ -75,13 +75,13 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
     from semantic_kernel import Kernel
     from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
     from semantic_kernel.prompt_template import PromptTemplateConfig
-    
+
     # Load environment variables
     load_dotenv()
-    
+
     # Initialize kernel
     kernel = Kernel()
-    
+
     # Add Azure OpenAI chat service
     kernel.add_service(
         AzureChatCompletion(
@@ -98,16 +98,16 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
     using Microsoft.SemanticKernel;
     using Azure.AI.OpenAI;
     using Azure.Identity;
-    
+
     // Initialize kernel
     var builder = Kernel.CreateBuilder();
-    
+
     builder.AddAzureOpenAIChatCompletion(
         deploymentName: Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT"),
         endpoint: Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT"),
         apiKey: Environment.GetEnvironmentVariable("AZURE_OPENAI_API_KEY")
     );
-    
+
     var kernel = builder.Build();
     ```
 
@@ -117,7 +117,7 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
 
     ```python
     from semantic_kernel.functions import kernel_function
-    
+
     class CustomerServiceAgent:
         @kernel_function(
             name="answer_question",
@@ -127,15 +127,15 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
             """Process customer questions with context."""
             prompt = f"""
             You are a helpful customer service agent.
-            
+
             Customer Question: {question}
-            
+
             Provide a clear, concise, and helpful response.
             """
-            
+
             result = kernel.invoke_prompt(prompt)
             return str(result)
-    
+
     # Register the agent
     agent = CustomerServiceAgent()
     kernel.add_plugin(agent, plugin_name="customer_service")
@@ -153,17 +153,17 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
         {
             var prompt = $@"
             You are a helpful customer service agent.
-            
+
             Customer Question: {question}
-            
+
             Provide a clear, concise, and helpful response.
             ";
-            
+
             var result = await kernel.InvokePromptAsync(prompt);
             return result.ToString();
         }
     }
-    
+
     // Register the agent
     kernel.ImportPluginFromObject(new CustomerServiceAgent());
     ```
@@ -174,49 +174,49 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
 
     ```python
     from typing import Optional
-    
+
     class SafetyFilter:
         def __init__(self):
             self.blocked_words = ["inappropriate", "harmful"]
-        
+
         def validate_input(self, user_input: str) -> tuple[bool, Optional[str]]:
             """Validate user input for safety."""
             # Check for blocked content
             for word in self.blocked_words:
                 if word.lower() in user_input.lower():
                     return False, "Input contains inappropriate content"
-            
+
             # Check input length
             if len(user_input) > 1000:
                 return False, "Input exceeds maximum length"
-            
+
             return True, None
-        
+
         def validate_output(self, output: str) -> tuple[bool, Optional[str]]:
             """Validate agent output for safety."""
             # Similar validation for output
             if len(output) > 2000:
                 return False, "Output exceeds maximum length"
-            
+
             return True, None
-    
+
     # Use the safety filter
     safety = SafetyFilter()
-    
+
     def safe_agent_call(question: str):
         # Validate input
         is_valid, error = safety.validate_input(question)
         if not is_valid:
             return f"Error: {error}"
-        
+
         # Process with agent
         response = agent.answer_question(question)
-        
+
         # Validate output
         is_valid, error = safety.validate_output(response)
         if not is_valid:
             return "Error: Unable to generate safe response"
-        
+
         return response
     ```
 
@@ -226,7 +226,7 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
     public class SafetyFilter
     {
         private readonly string[] _blockedWords = { "inappropriate", "harmful" };
-        
+
         public (bool IsValid, string? Error) ValidateInput(string input)
         {
             // Check for blocked content
@@ -237,13 +237,13 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
                     return (false, "Input contains inappropriate content");
                 }
             }
-            
+
             // Check input length
             if (input.Length > 1000)
             {
                 return (false, "Input exceeds maximum length");
             }
-            
+
             return (true, null);
         }
     }
@@ -256,15 +256,15 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
     ```python
     def main():
         print("AI Agent Ready!")
-        
+
         while True:
             question = input("\nYou: ")
             if question.lower() in ["exit", "quit"]:
                 break
-            
+
             response = safe_agent_call(question)
             print(f"\nAgent: {response}")
-    
+
     if __name__ == "__main__":
         main()
     ```
@@ -275,15 +275,15 @@ Let's build a simple AI agent using Azure OpenAI and Semantic Kernel.
     public static async Task Main(string[] args)
     {
         Console.WriteLine("AI Agent Ready!");
-        
+
         while (true)
         {
             Console.Write("\nYou: ");
             var question = Console.ReadLine();
-            
+
             if (question?.ToLower() is "exit" or "quit")
                 break;
-            
+
             var response = await SafeAgentCall(question);
             Console.WriteLine($"\nAgent: {response}");
         }
@@ -310,7 +310,7 @@ def test_agent():
         "",  # Empty input
         "x" * 1500,  # Too long
     ]
-    
+
     for case in test_cases:
         print(f"\nTest: {case[:50]}...")
         response = safe_agent_call(case)
@@ -332,25 +332,18 @@ Now that you have a basic agent running:
 
 - [Quickstart: Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/quickstart)
 
-
 - [Semantic Kernel Quickstart](https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide)
-
 
 - [Azure AI SDK Samples](https://learn.microsoft.com/azure/ai-services/openai/samples)
 
-
 - [Building Your First Agent](https://learn.microsoft.com/azure/ai-services/agents/quickstart)
-
 
 ### 📖 Additional Documentation
 
 - [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel/)
 
-
 - [Azure AI Services Documentation](https://docs.microsoft.com/azure/ai-services/)
 
-
 - [Python Azure SDK](https://docs.microsoft.com/python/api/overview/azure/)
-
 
 </div>

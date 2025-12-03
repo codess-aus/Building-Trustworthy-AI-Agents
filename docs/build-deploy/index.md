@@ -28,13 +28,13 @@ class ReasoningEngine:
     def process(self, user_input, context):
         # Analyze intent
         intent = self.analyze_intent(user_input)
-        
+
         # Retrieve relevant context
         relevant_data = self.retrieve_context(intent, context)
-        
+
         # Generate response
         response = self.generate_response(intent, relevant_data)
-        
+
         return response
 ```
 
@@ -159,28 +159,20 @@ Continue to the following sections to dive deeper into specific aspects of build
 
 - [Build AI Apps with Azure AI Studio](https://learn.microsoft.com/azure/ai-studio/)
 
-
 - [Develop AI Agents with Semantic Kernel](https://learn.microsoft.com/semantic-kernel/)
-
 
 - [Azure AI Agent Service](https://learn.microsoft.com/azure/ai-services/agents/)
 
-
 - [Prompt Engineering Techniques](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering)
 
-
 - [RAG Pattern Implementation](https://learn.microsoft.com/azure/search/retrieval-augmented-generation-overview)
-
 
 ### 📖 Additional Documentation
 
 - [Azure AI SDK Documentation](https://docs.microsoft.com/azure/ai-services/sdks/)
 
-
 - [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel/)
 
-
 - [Agent Architecture Patterns](https://docs.microsoft.com/azure/architecture/ai/)
-
 
 </div>
