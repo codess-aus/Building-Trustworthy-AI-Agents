@@ -6,6 +6,10 @@
 
 Threat modeling is a structured approach to identifying, quantifying, and addressing security risks in AI agents. It helps you think like an attacker to build better defenses.
 
+<img src="../images/Risks.png" alt="AI System Risks" style="max-width: 800px; margin: 20px 0;" />
+
+*Figure: Understanding the spectrum of risks in AI systems is essential for effective threat modeling*
+
 ## The STRIDE Framework
 
 STRIDE is a threat modeling methodology developed by Microsoft:
@@ -478,6 +482,10 @@ class AdversarialDefense:
 ```
 
 ## Security Testing
+
+<img src="../images/Red Team.png" alt="Red Teaming AI Systems" style="max-width: 800px; margin: 20px 0;" />
+
+Security testing for AI agents requires specialized approaches including red teaming, penetration testing, and adversarial testing to identify vulnerabilities before attackers do.
 
 ### Penetration Testing Checklist
 

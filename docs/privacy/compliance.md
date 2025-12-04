@@ -6,6 +6,10 @@
 
 Navigate the complex landscape of AI and data privacy regulations.
 
+<img src="../images/Ethical Policy.png" alt="Ethical AI Policy Framework" style="max-width: 800px; margin: 20px 0;" />
+
+*Figure: Ethical policies guide compliance and responsible AI development*
+
 ## Major Regulations
 
 ### GDPR (General Data Protection Regulation)

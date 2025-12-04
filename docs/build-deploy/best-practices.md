@@ -249,6 +249,10 @@ class BatchProcessor:
 
 ## Observability and Monitoring
 
+<img src="../images/Observable.png" alt="Observability for AI Systems" style="max-width: 800px; margin: 20px 0;" />
+
+Comprehensive observability enables you to understand your AI agent's behavior, diagnose issues quickly, and ensure reliable operation in production.
+
 ### Comprehensive Logging
 
 ```python
@@ -290,6 +294,8 @@ class AgentLogger:
 
 ### Metrics Collection
 
+<img src="../images/Measure.png" alt="Measuring AI Agent Performance" style="max-width: 800px; margin: 20px 0;" />
+
 Track important metrics:
 
 ```python
@@ -316,6 +322,10 @@ class AgentMetrics:
 ```
 
 ## Testing Strategies
+
+<img src="../images/Eval Metrics.png" alt="Evaluation Metrics for AI Agents" style="max-width: 800px; margin: 20px 0;" />
+
+Testing AI agents requires comprehensive evaluation across multiple dimensions. Use systematic testing strategies to ensure your agent performs reliably and safely.
 
 ### Unit Tests
 
