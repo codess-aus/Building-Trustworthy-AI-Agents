@@ -323,7 +323,7 @@ class AgentMetrics:
 
 ## Testing Strategies
 
-<img src="../images/Eval%20Metrics.png" alt="Evaluation Metrics for AI Agents" style="max-width: 800px; margin: 20px 0;" />
+<img src="../images/EvalMetrics.png" alt="Evaluation Metrics for AI Agents" style="max-width: 800px; margin: 20px 0;" />
 
 Testing AI agents requires comprehensive evaluation across multiple dimensions. Use systematic testing strategies to ensure your agent performs reliably and safely.
 

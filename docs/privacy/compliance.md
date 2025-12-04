@@ -6,7 +6,7 @@
 
 Navigate the complex landscape of AI and data privacy regulations.
 
-<img src="../images/Ethical%20Policy.png" alt="Ethical AI Policy Framework" style="max-width: 800px; margin: 20px 0;" />
+<img src="../images/EthicalPolicy.png" alt="Ethical AI Policy Framework" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Ethical policies guide compliance and responsible AI development*
 

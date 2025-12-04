@@ -6,7 +6,7 @@
 
 Welcome to the comprehensive guide on building trustworthy AI agents. In today's rapidly evolving AI landscape, creating agents that are not only effective but also safe, secure, and privacy-conscious is paramount. This guide will walk you through the essential principles and practices for developing AI agents that organizations and users can trust.
 
-<img src="images/Responsible%20AI.png" alt="Responsible AI Framework" style="max-width: 800px; margin: 20px 0;" />
+<img src="images/ResponsibleAI.png" alt="Responsible AI Framework" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Building responsible AI requires attention to multiple dimensions of trustworthiness*
 
@@ -54,7 +54,7 @@ Building trustworthy AI agents is not just about following best practices—it's
 - **Ensures compliance**: Meets regulatory requirements and industry standards
 - **Builds confidence**: Earns user trust through transparent and responsible practices
 
-<img src="images/Microsoft%20Trustworthy%20AI.png" alt="Microsoft Trustworthy AI Framework" style="max-width: 800px; margin: 20px 0;" />
+<img src="images/MicrosoftTrustworthyAI.png" alt="Microsoft Trustworthy AI Framework" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Microsoft's Trustworthy AI principles guide the development of responsible AI systems*
 
