@@ -71,7 +71,7 @@ Critical for trustworthy AI agents, safety layers ensure that actions are approp
 - Rate limiting and resource management
 - Audit logging and monitoring
 
-<img src="../images/Operationalizing Trust.png" alt="Operationalizing Trust" style="max-width: 800px; margin: 20px 0;" />
+<img src="../images/Operationalizing%20Trust.png" alt="Operationalizing Trust" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Key practices for operationalizing trust in AI systems*
 

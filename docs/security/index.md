@@ -6,7 +6,7 @@
 
 Security is paramount when developing AI agents. These systems often handle sensitive data, make critical decisions, and interact with external services. A single security vulnerability can compromise user data, system integrity, and organizational reputation.
 
-<img src="../images/Secucity as Core Design.png" alt="Security as Core Design Principle" style="max-width: 800px; margin: 20px 0;" />
+<img src="../images/Secucity%20as%20Core%20Design.png" alt="Security as Core Design Principle" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Security must be integrated as a core design principle from the start*
 
@@ -26,7 +26,7 @@ AI agents face unique security challenges that extend beyond traditional applica
 
 Building trustworthy AI agents requires a defense-in-depth approach with multiple layers of protection. Following Microsoft's responsible AI framework, implement these four foundational layers:
 
-<img src="../images/Risk Mitigation Layers.png" alt="Risk Mitigation Layers" style="max-width: 800px; margin: 20px 0;" />
+<img src="../images/Risk%20Mitigation%20Layers.png" alt="Risk Mitigation Layers" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Microsoft's four-layer approach to AI risk mitigation*
 

@@ -483,7 +483,7 @@ class AdversarialDefense:
 
 ## Security Testing
 
-<img src="../images/Red Team.png" alt="Red Teaming AI Systems" style="max-width: 800px; margin: 20px 0;" />
+<img src="../images/Red%20Team.png" alt="Red Teaming AI Systems" style="max-width: 800px; margin: 20px 0;" />
 
 Security testing for AI agents requires specialized approaches including red teaming, penetration testing, and adversarial testing to identify vulnerabilities before attackers do.
 
