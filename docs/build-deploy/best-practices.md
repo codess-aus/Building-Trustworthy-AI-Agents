@@ -99,6 +99,8 @@ class IdempotentAgent:
 
 ## Prompt Engineering
 
+<img src="../images/04-prompt-engineering-sketchnote.png" alt="Prompt Engineering" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin: 1em 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
 ### Write Effective Prompts
 
 !!! tip "Prompt Structure"
