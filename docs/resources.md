@@ -2,396 +2,235 @@
 
 ## Overview
 
-This page provides curated resources to help you continue learning about building trustworthy AI agents. These resources complement the guide and provide deeper dives into specific topics.
+This page provides curated resources referenced throughout this guide to help you continue learning about building trustworthy AI agents.
 
-## Microsoft Learn Training Paths
+## Microsoft Learn Training & Documentation
 
-### AI and Machine Learning Fundamentals
+### Getting Started
 
-- [**Introduction to Artificial Intelligence**](https://learn.microsoft.com/training/modules/introduction-to-ai/)
+- [**Agent Development Overview**](https://learn.microsoft.com/en-gb/azure/ai-foundry/agents/overview?view=foundry)
+  
+  Comprehensive overview of building AI agents with Azure AI Foundry.
 
-  Understand the fundamentals of AI and machine learning.
+- [**Microsoft Foundry Quickstart**](https://learn.microsoft.com/en-gb/azure/ai-foundry/quickstarts/get-started-code?view=foundry&tabs=python%2Cpython2)
+  
+  Quick start guide for Azure AI Foundry development.
 
-- [**Microsoft Azure AI Fundamentals**](https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/)
+- [**Building Your First Agent**](https://learn.microsoft.com/azure/ai-services/agents/quickstart)
+  
+  Step-by-step guide to creating your first AI agent.
 
-  Learn the basics of AI services in Azure.
+### AI Agent Development
 
-- [**Responsible AI Principles**](https://learn.microsoft.com/training/paths/responsible-ai-business-principles/)
-
-  Understand ethical considerations and responsible AI development.
-
-### Building AI Agents
-
-- [**Build AI Apps with Azure AI Studio**](https://learn.microsoft.com/training/paths/create-custom-copilots-ai-studio/)
-
-  Learn to build custom AI agents using Azure AI Studio.
-
-- [**Develop AI Agents with Semantic Kernel**](https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide)
-
-  Get started with Semantic Kernel for AI agent development.
-
-- [**Azure OpenAI Service**](https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/)
-
-  Master Azure OpenAI for building intelligent applications.
-
-- [**Implement RAG with Azure AI Search**](https://learn.microsoft.com/training/modules/improve-search-results-vector-search/)
-
-  Learn retrieval-augmented generation patterns.
-
-### Security and Privacy
-
-- [**Azure Security Fundamentals**](https://learn.microsoft.com/training/paths/azure-security-fundamentals/)
-
-  Foundation of security in Azure.
-
-- [**AI Security Best Practices**](https://learn.microsoft.com/security/ai/)
-
-  Specific security considerations for AI systems.
-
-- [**Privacy in Azure**](https://learn.microsoft.com/training/modules/intro-to-azure-compliance/)
-
-  Understanding privacy and compliance in Azure.
-
-## Microsoft Documentation
-
-### Core AI Services
-
-- [**Azure AI Services Documentation**](https://docs.microsoft.com/azure/ai-services/)
-
-  Comprehensive documentation for all Azure AI services.
-
-- [**Azure OpenAI Service Docs**](https://docs.microsoft.com/azure/ai-services/openai/)
-
-  Complete guide to Azure OpenAI capabilities.
-
-- [**Azure AI Search**](https://docs.microsoft.com/azure/search/)
-
-  Documentation for implementing search and RAG patterns.
-
-- [**Azure AI Content Safety**](https://docs.microsoft.com/azure/ai-services/content-safety/)
-
-  Protect your applications with content moderation.
-
-### Development Frameworks
+- [**Microsoft Foundry**](https://learn.microsoft.com/azure/ai-studio/)
+  
+  Azure AI Studio platform for building and deploying AI agents.
 
 - [**Semantic Kernel**](https://learn.microsoft.com/semantic-kernel/)
-
+  
   SDK for orchestrating AI plugins and agents.
 
-- [**Prompt Flow**](https://learn.microsoft.com/azure/machine-learning/prompt-flow/)
+- [**Agent Tools and Integration**](https://learn.microsoft.com/en-gb/azure/ai-foundry/agents/concepts/tool-catalog?view=foundry)
+  
+  Catalog of tools and integrations for AI agents.
 
-  Tool for developing and evaluating LLM applications.
+### Best Practices
 
-- [**LangChain**](https://python.langchain.com/)
+- [**Azure AI Agent Best Practices**](https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/)
+  
+  Training module on best practices for AI agent development.
 
-  Framework for developing applications with LLMs.
+- [**Generative AI Prompt Engineering Guide**](https://learn.microsoft.com/en-us/training/modules/create-prompts-for-generative-ai-training-tools/)
+  
+  Learn effective prompt engineering techniques.
 
-### Security and Compliance
+- [**Prompt Engineering for Beginners**](https://github.com/microsoft/generative-ai-for-beginners/tree/main/04-prompt-engineering-fundamentals)
+  
+  Fundamentals of prompt engineering for AI applications.
 
-- [**Microsoft Security Documentation**](https://docs.microsoft.com/security/)
+### Deployment & Operations
 
-  Comprehensive security guidance.
+- [**Azure Container Apps Documentation**](https://learn.microsoft.com/azure/container-apps/)
+  
+  Deploy and scale containerized AI agents.
 
-- [**Azure Key Vault**](https://docs.microsoft.com/azure/key-vault/)
+- [**Azure Functions for Python**](https://learn.microsoft.com/azure/azure-functions/functions-reference-python)
+  
+  Serverless deployment options for Python-based agents.
 
-  Secure secrets management.
+- [**AKS Best Practices**](https://learn.microsoft.com/azure/aks/best-practices)
+  
+  Best practices for deploying on Azure Kubernetes Service.
 
-- [**Azure Active Directory**](https://docs.microsoft.com/azure/active-directory/)
+- [**Azure Monitor and Application Insights**](https://learn.microsoft.com/azure/azure-monitor/)
+  
+  Monitoring and observability for AI applications.
 
-  Identity and access management.
+## Security
 
-- [**Microsoft Compliance Center**](https://docs.microsoft.com/microsoft-365/compliance/)
+### Security Fundamentals
 
-  Compliance tools and guidance.
+- [**Secure AI**](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/secure)
+  
+  Cloud adoption framework for securing AI workloads.
 
-### Deployment and Operations
+- [**Azure AI Content Safety**](https://learn.microsoft.com/azure/ai-services/content-safety/)
+  
+  Content moderation and safety services.
 
-- [**Azure Container Apps**](https://docs.microsoft.com/azure/container-apps/)
+- [**Azure Security Documentation**](https://learn.microsoft.com/azure/security/)
+  
+  Comprehensive Azure security guidance.
 
-  Deploy and scale containerized applications.
+- [**Responsible AI Security**](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
+  
+  Security aspects of responsible AI development.
 
-- [**Azure Kubernetes Service**](https://docs.microsoft.com/azure/aks/)
+- [**Azure Key Vault**](https://learn.microsoft.com/azure/key-vault/)
+  
+  Secure secrets and key management.
 
-  Managed Kubernetes for production deployments.
+### Authentication & Authorization
 
-- [**Azure Monitor**](https://docs.microsoft.com/azure/azure-monitor/)
+- [**Microsoft identity platform documentation**](https://learn.microsoft.com/azure/active-directory/develop/)
+  
+  Identity and authentication services.
 
-  Comprehensive monitoring and diagnostics.
+- [**Managed identities for Azure resources documentation**](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/)
+  
+  Managed identity implementation guide.
 
-- [**Application Insights**](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+- [**Azure RBAC**](https://learn.microsoft.com/azure/role-based-access-control/)
+  
+  Role-based access control for Azure resources.
 
-  Application performance monitoring.
+- [**API Management Authentication**](https://learn.microsoft.com/azure/api-management/api-management-authentication-policies)
+  
+  Authentication policies for API management.
 
-## Architecture and Design
+### Input Validation & Security Testing
 
-### Reference Architectures
+- [**Input validation mitigations**](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-input-validation)
+  
+  Techniques for validating and sanitizing inputs.
 
-- [**Azure Architecture Center**](https://docs.microsoft.com/azure/architecture/)
+- [**Azure Web Application Firewall**](https://learn.microsoft.com/azure/web-application-firewall/)
+  
+  WAF for protecting web applications.
 
-  Proven patterns and practices for Azure solutions.
+- [**Microsoft Threat Modeling Tool**](https://learn.microsoft.com/azure/security/develop/threat-modeling-tool)
+  
+  Tool for identifying security threats.
 
-- [**AI Architecture Patterns**](https://docs.microsoft.com/azure/architecture/ai/)
+- [**Azure Security Best Practices**](https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns)
+  
+  Security best practices and patterns.
 
-  Specific patterns for AI applications.
+- [**AI Red Teaming**](https://learn.microsoft.com/security/ai-red-team/)
+  
+  Red teaming techniques for AI systems.
 
-- [**Microservices Architecture**](https://docs.microsoft.com/azure/architecture/microservices/)
+## Privacy & Compliance
 
-  Building scalable microservices.
+### Privacy Fundamentals
 
-- [**Well-Architected Framework**](https://docs.microsoft.com/azure/architecture/framework/)
+- [**Azure Privacy Documentation**](https://learn.microsoft.com/azure/compliance/offerings/)
+  
+  Privacy compliance in Azure.
 
-  Five pillars of architectural excellence.
+- [**Data Protection in Azure**](https://learn.microsoft.com/azure/security/fundamentals/data-encryption-best-practices)
+  
+  Best practices for data encryption and protection.
 
-### Design Patterns
+- [**Azure Confidential Computing**](https://learn.microsoft.com/azure/confidential-computing/)
+  
+  Hardware-based confidential computing services.
 
-- [**Cloud Design Patterns**](https://docs.microsoft.com/azure/architecture/patterns/)
+- [**Responsible AI Privacy**](https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai)
+  
+  Privacy considerations in responsible AI.
 
-  Common patterns for cloud applications.
+### User Privacy & Rights
 
-- [**Enterprise Integration Patterns**](https://www.enterpriseintegrationpatterns.com/)
+- [**Privacy in Azure**](https://learn.microsoft.com/azure/compliance/offerings/)
+  
+  Azure compliance and privacy offerings.
 
-  Patterns for integrating systems.
+- [**User Rights Management**](https://learn.microsoft.com/azure/active-directory/identity-protection/)
+  
+  Identity protection and user rights.
 
-## Industry Standards and Frameworks
+- [**Consent Management**](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview)
+  
+  Implementing consent management with Azure AD B2C.
 
-### AI and Ethics
+### Data Governance
 
-- [**OECD AI Principles**](https://oecd.ai/en/ai-principles)
+- [**Azure Purview Data Governance**](https://learn.microsoft.com/azure/purview/)
+  
+  Unified data governance solution.
 
-  International principles for AI development.
+- [**Data Classification in Azure**](https://learn.microsoft.com/azure/information-protection/what-is-information-protection)
+  
+  Information protection and classification.
 
-- [**IEEE Ethically Aligned Design**](https://ethicsinaction.ieee.org/)
+- [**Azure Data Catalog**](https://learn.microsoft.com/azure/data-catalog/)
+  
+  Data discovery and cataloging.
 
-  Framework for ethical AI design.
+- [**Data Governance Best Practices**](https://learn.microsoft.com/en-gb/azure/architecture/databases/guide/data-obfuscation-with-delphix-in-azure-data-factory)
+  
+  Data obfuscation and governance patterns.
 
-- [**Partnership on AI**](https://partnershiponai.org/)
+### Compliance
 
-  Best practices and guidelines.
+- [**Microsoft Purview**](https://learn.microsoft.com/microsoft-365/compliance/)
+  
+  Compliance management platform.
 
-### Security Standards
+- [**Azure Compliance Documentation**](https://learn.microsoft.com/azure/compliance/)
+  
+  Comprehensive compliance guidance.
 
-- [**OWASP Top 10 for LLMs**](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-
-  Security risks specific to LLM applications.
-
-- [**OWASP AI Security and Privacy Guide**](https://owasp.org/www-project-ai-security-and-privacy-guide/)
-
-  Comprehensive security guidance for AI systems.
-
-- [**NIST AI Risk Management Framework**](https://www.nist.gov/itl/ai-risk-management-framework)
-
-  Framework for managing AI risks.
-
-- [**MITRE ATT&CK for AI**](https://atlas.mitre.org/)
-
-  Adversarial threat landscape for AI systems.
-
-### Privacy and Compliance
-
-- [**GDPR Compliance**](https://gdpr.eu/)
-
-  Official GDPR information and requirements.
-
-- [**CCPA Regulations**](https://oag.ca.gov/privacy/ccpa)
-
-  California Consumer Privacy Act guidance.
-
-- [**NIST Privacy Framework**](https://www.nist.gov/privacy-framework)
-
-  Framework for privacy risk management.
-
-- [**ISO/IEC 27701**](https://www.iso.org/standard/71670.html)
-
-  Privacy information management systems.
-
-## Tools and SDKs
-
-### Development Tools
-
-- [**Azure CLI**](https://docs.microsoft.com/cli/azure/)
-
-  Command-line tools for Azure.
-
-- [**Azure SDK for Python**](https://docs.microsoft.com/python/api/overview/azure/)
-
-  Python SDK for Azure services.
-
-- [**Azure SDK for .NET**](https://docs.microsoft.com/dotnet/azure/)
-
-  .NET SDK for Azure services.
-
-- [**Visual Studio Code**](https://code.visualstudio.com/)
-
-  Free code editor with Azure extensions.
-
-### Testing and Quality
-
-- [**Promptfoo**](https://www.promptfoo.dev/)
-
-  Test and evaluate LLM outputs.
-
-- [**Azure Load Testing**](https://docs.microsoft.com/azure/load-testing/)
-
-  Load testing for applications.
-
-- [**Playwright**](https://playwright.dev/)
-
-  End-to-end testing framework.
-
-### Security Tools
-
-- [**Microsoft Threat Modeling Tool**](https://docs.microsoft.com/azure/security/develop/threat-modeling-tool)
-
-  Identify potential security issues.
-
-- [**Azure Security Center**](https://docs.microsoft.com/azure/security-center/)
-
-  Unified security management.
+- [**GDPR Compliance in Azure**](https://learn.microsoft.com/compliance/regulatory/gdpr)
+  
+  GDPR compliance resources.
 
 ## Community and Support
 
 ### Developer Communities
 
-- [**Microsoft AI Developer Community**](https://techcommunity.microsoft.com/t5/ai-and-machine-learning/ct-p/AI)
-
-  Connect with other AI developers.
-
-- [**Azure Community**](https://azure.microsoft.com/support/community/)
-
-  Ask questions and share knowledge.
-
 - [**GitHub Discussions**](https://github.com/microsoft/semantic-kernel/discussions)
-
+  
   Semantic Kernel community discussions.
 
-- [**Stack Overflow**](https://stackoverflow.com/questions/tagged/azure-ai)
+---
 
-  Technical Q&A for Azure AI.
+## Contributing
 
-### Blogs and Updates
+Found a great resource we should include? Have suggestions for improving this guide?
 
-- [**Azure AI Blog**](https://azure.microsoft.com/blog/topics/ai-machine-learning/)
+- **Report Issues**: Create an issue in our [GitHub repository](https://github.com/codess-aus/Building-Trustworthy-AI-Agents/issues)
+- **Contribute**: Submit a pull request with your suggestions
+- **Feedback**: Share your experience and suggestions
 
-  Latest news and updates.
+---
 
-- [**Microsoft Security Blog**](https://www.microsoft.com/security/blog/)
-
-  Security insights and best practices.
-
-- [**Azure Architecture Blog**](https://techcommunity.microsoft.com/t5/azure-architecture-blog/bg-p/AzureArchitectureBlog)
-
-  Architecture patterns and guidance.
-
-### Events and Webinars
-
-- [**Microsoft Build**](https://build.microsoft.com/)
-
-  Annual developer conference.
-
-- [**Microsoft Ignite**](https://ignite.microsoft.com/)
-
-  Technical conference for IT professionals.
-
-- [**AI Show**](https://learn.microsoft.com/shows/ai-show/)
-
-  Video series on AI technologies.
-
-## Books and Publications
-
-### AI and Machine Learning
-
-- **"Building Intelligent Systems" by Geoff Hulten**
-  Practical guide to AI system design.
-
-- **"Artificial Intelligence: A Modern Approach" by Russell & Norvig**
-  Comprehensive AI textbook.
-
-- **"Deep Learning" by Goodfellow, Bengio, and Courville**
-  Foundational deep learning concepts.
-
-### Security and Privacy
-
-- **"The AI Security Playbook" by TechTarget**
-  Security practices for AI systems.
-
-- **"Privacy by Design" by Ann Cavoukian**
-  Framework for privacy engineering.
-
-- **"Security Engineering" by Ross Anderson**
-  Comprehensive security engineering guide.
-
-### Software Architecture
-
-- **"Designing Data-Intensive Applications" by Martin Kleppmann**
-  Modern data system architecture.
-
-- **"Building Microservices" by Sam Newman**
-  Microservices architecture patterns.
-
-- **"Site Reliability Engineering" by Google**
-  Operating reliable production systems.
-
-## Research Papers
-
-### Responsible AI
-
-- [**Fairness and Machine Learning**](https://fairmlbook.org/)
-
-  Academic perspective on fairness in ML.
-
-- [**AI Ethics Guidelines**](https://www.microsoft.com/en-us/ai/responsible-ai)
-
-  Microsoft's approach to responsible AI.
-
-### Security Research
-
-- [**Adversarial Machine Learning**](https://arxiv.org/abs/1810.00969)
-
-  Research on adversarial attacks.
-
-- [**Privacy-Preserving Machine Learning**](https://arxiv.org/abs/2106.08151)
-
-  Techniques for private ML.
-
-## Getting Help
-
-### Microsoft Support
-
-- [**Azure Support Plans**](https://azure.microsoft.com/support/plans/)
-
-  Professional support options.
-
-- [**Azure Documentation**](https://docs.microsoft.com/azure/)
-
-  Comprehensive technical documentation.
-
-- [**Microsoft Q&A**](https://docs.microsoft.com/answers/)
-
-  Community-driven Q&A platform.
-
-### Professional Services
-
-- [**Microsoft FastTrack**](https://www.microsoft.com/fasttrack)
-
-  Deployment assistance for Azure.
-
-- [**Azure Solution Architects**](https://azure.microsoft.com/solutions/architecture/)
-
-  Expert architectural guidance.
-
-## Stay Updated
-
-### Newsletter Subscriptions
-
-- **Azure Updates** - Subscribe at [azure.microsoft.com/updates](https://azure.microsoft.com/updates/)
-- **AI Newsletter** - Technical insights and updates
-- **Security Updates** - Latest security advisories
-
-### Social Media
-
-- **Twitter**: [@Azure](https://twitter.com/Azure), [@AzureAI](https://twitter.com/Azure_AI)
-- **LinkedIn**: [Microsoft Azure](https://www.linkedin.com/showcase/microsoft-azure/)
-- **YouTube**: [Microsoft Azure](https://www.youtube.com/c/MicrosoftAzure)
+<div class="resource-links">
+<h3>📚 Start Learning Today</h3>
+<p>Ready to dive deeper? Start with these curated learning paths:</p>
+<ol>
+<li><strong>Beginners</strong>: Start with <a href="https://learn.microsoft.com/azure/ai-services/agents/quickstart" target="_blank" rel="noopener">Building Your First Agent</a></li>
+<li><strong>Developers</strong>: Explore <a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel</a></li>
+<li><strong>Security Professionals</strong>: Study <a href="https://learn.microsoft.com/azure/security/" target="_blank" rel="noopener">Azure Security Documentation</a></li>
+</ol>
+<h3>🎯 Quick Links</h3>
+<ul>
+<li><a href="https://portal.azure.com/" target="_blank" rel="noopener">Azure Portal</a></li>
+<li><a href="https://ai.azure.com/" target="_blank" rel="noopener">Azure AI Studio</a></li>
+<li><a href="https://learn.microsoft.com/" target="_blank" rel="noopener">Microsoft Learn</a></li>
+</ul>
+</div>
 
 ---
 
