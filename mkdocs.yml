@@ -99,7 +99,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_div_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -129,6 +129,10 @@ nav:
 # Extra CSS for gradient
 extra_css:
   - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 # Extra configuration
 extra:
