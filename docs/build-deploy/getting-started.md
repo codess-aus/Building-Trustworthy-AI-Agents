@@ -329,15 +329,10 @@ Now that you have a basic agent running:
 <div class="resource-links">
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/quickstart" target="_blank" rel="noopener">Quickstart: Azure OpenAI</a></li>
-<li><a href="https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide" target="_blank" rel="noopener">Semantic Kernel Quickstart</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/samples" target="_blank" rel="noopener">Azure AI SDK Samples</a></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/ai-foundry/agents/overview?view=foundry" target="_blank" rel="noopener">Agent Development Overview</a></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/ai-foundry/quickstarts/get-started-code?view=foundry&tabs=python%2Cpython2" target="_blank" rel="noopener">Microsoft Foundry Quickstart</a></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/ai-foundry/agents/concepts/tool-catalog?view=foundry" target="_blank" rel="noopener">Agent Tools and Integration</a></li>
 <li><a href="https://learn.microsoft.com/azure/ai-services/agents/quickstart" target="_blank" rel="noopener">Building Your First Agent</a></li>
 </ul>
-<h3>📖 Additional Documentation</h3>
-<ul>
-<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel Documentation</a></li>
-<li><a href="https://docs.microsoft.com/azure/ai-services/" target="_blank" rel="noopener">Azure AI Services Documentation</a></li>
-<li><a href="https://docs.microsoft.com/python/api/overview/azure/" target="_blank" rel="noopener">Python Azure SDK</a></li>
 </ul>
 </div>

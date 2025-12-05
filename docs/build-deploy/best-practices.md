@@ -458,8 +458,8 @@ agent:
 <div class="resource-links">
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/best-practices" target="_blank" rel="noopener">Azure AI Best Practices</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/advanced-prompt-engineering" target="_blank" rel="noopener">Prompt Engineering Guide</a></li>
+<li><a href="https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/" target="_blank" rel="noopener">Azure AI Agent Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/ai-foundry/openai/concepts/prompt-engineering?view=foundry-classic" target="_blank" rel="noopener">Prompt Engineering Guide</a></li>
 <li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/performance" target="_blank" rel="noopener">Performance Optimization</a></li>
 <li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/monitoring" target="_blank" rel="noopener">Monitoring AI Applications</a></li>
 </ul>
