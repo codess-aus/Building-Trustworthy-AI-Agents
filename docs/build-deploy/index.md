@@ -160,11 +160,9 @@ Continue to the following sections to dive deeper into specific aspects of build
 <div class="resource-links">
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
-<li><a href="https://learn.microsoft.com/azure/ai-studio/" target="_blank" rel="noopener">Build AI Apps with Azure AI Studio</a></li>
-<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Develop AI Agents with Semantic Kernel</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/agents/" target="_blank" rel="noopener">Azure AI Agent Service</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering" target="_blank" rel="noopener">Prompt Engineering Techniques</a></li>
-<li><a href="https://learn.microsoft.com/azure/search/retrieval-augmented-generation-overview" target="_blank" rel="noopener">RAG Pattern Implementation</a></li>
+<li><a href="https://learn.microsoft.com/azure/ai-studio/" target="_blank" rel="noopener">Microsoft Foundry</a></li>
+<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel</a></li>
+<li><a href="https://microsoftlearning.github.io/mslearn-ai-agents/" target="_blank" rel="noopener">Develop AI Agents in Azure</a></li>
 </ul>
 <h3>📖 Additional Documentation</h3>
 <ul>
