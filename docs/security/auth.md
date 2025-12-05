@@ -495,8 +495,8 @@ class SessionManager:
 <div class="resource-links">
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
-<li><a href="https://learn.microsoft.com/azure/active-directory/develop/" target="_blank" rel="noopener">Azure AD Authentication</a></li>
-<li><a href="https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/" target="_blank" rel="noopener">Managed Identity</a></li>
+<li><a href="https://learn.microsoft.com/azure/active-directory/develop/" target="_blank" rel="noopener">Microsoft identity platform documentation</a></li>
+<li><a href="https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/" target="_blank" rel="noopener">Managed identities for Azure resources documentation</a></li>
 <li><a href="https://learn.microsoft.com/azure/role-based-access-control/" target="_blank" rel="noopener">Azure RBAC</a></li>
 <li><a href="https://learn.microsoft.com/azure/api-management/api-management-authentication-policies" target="_blank" rel="noopener">API Management Authentication</a></li>
 </ul>
@@ -504,6 +504,5 @@ class SessionManager:
 <ul>
 <li><a href="https://oauth.net/2/" target="_blank" rel="noopener">OAuth 2.0 Specification</a></li>
 <li><a href="https://openid.net/connect/" target="_blank" rel="noopener">OpenID Connect</a></li>
-<li><a href="https://jwt.io/" target="_blank" rel="noopener">JWT.io</a></li>
 </ul>
 </div>
