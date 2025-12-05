@@ -1,6 +1,6 @@
 # Welcome to Building Trustworthy AI Agents
 
-<img src="images/hero-main.svg" alt="Building Trustworthy AI Agents" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Building Trustworthy AI Agents Hero Image">
+<img src="/Building-Trustworthy-AI-Agents/images/hero-main.svg" alt="Building Trustworthy AI Agents" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Building Trustworthy AI Agents Hero Image">
 
 ## Overview
 

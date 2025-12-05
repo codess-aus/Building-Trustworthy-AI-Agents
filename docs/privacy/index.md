@@ -1,6 +1,6 @@
 # Privacy & Data Protection
 
-<img src="../images/hero-privacy.svg" alt="Privacy and Data Protection" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Privacy and Data Protection Hero Image">
+<img src="/Building-Trustworthy-AI-Agents/images/hero-privacy.svg" alt="Privacy and Data Protection" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Privacy and Data Protection Hero Image">
 
 ## Introduction
 

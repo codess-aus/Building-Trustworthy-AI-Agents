@@ -1,6 +1,6 @@
 # Build & Deploy AI Agents
 
-<img src="../images/hero-build.svg" alt="Build and Deploy AI Agents" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Build and Deploy AI Agents Hero Image">
+<img src="/Building-Trustworthy-AI-Agents/images/hero-build.svg" alt="Build and Deploy AI Agents" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Build and Deploy AI Agents Hero Image">
 
 ## Introduction
 
