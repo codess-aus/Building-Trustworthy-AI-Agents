@@ -61,6 +61,23 @@ class ActionExecutor:
             return self.send_email(parameters)
         # Add more actions as needed
 ```
+**Context: What is an Action Executor in Azure AI Agents?**
+An action executor is a component or module responsible for carrying out actions—whether that’s calling an API, modifying data, or triggering workflows—on behalf of the AI agent. This means that whenever an agent determines via reasoning or policy that something should be done, the action executor handles the “doing.”
+
+**Key Considerations for Action Executors**
+1. Agent Identity
+What: This refers to how the agent is identified to the systems where actions are being executed. In Azure, this is often a managed identity, service principal, or a user context delegated to the agent.
+Why: Identity is crucial for auditing (knowing which agent did what), applying the right policies, and mapping action execution to individual agents or agent types.
+How: Use Azure Active Directory identities, Managed Identities for Azure resources, or assign custom identities.
+2. Permissions and Controls
+What: Permissions determine what actions the agent is allowed to execute (e.g., read/write access to resources, invoking functions, etc.).
+Why: Security is critical—agents should only execute actions they are authorized for, to mitigate risks of over-permissioned automation and to comply with least-privilege principles.
+How: Use Azure Role-Based Access Control (RBAC) or fine-grained policy controls to restrict what an agent’s identity can do. You can also use custom policies or scopes per action type.
+3. Controls (Governance, Auditing, and Monitoring)
+What: Controls refer to additional checks, logging, approvals, and monitoring applied to agent actions.
+Why: Organizational requirements, compliance, and operational safety often require detailed tracking and sometimes human-in-the-loop approvals for sensitive actions.
+How: Enable Azure Monitor logs, set up activity logs, and (if needed) integrate with workflows that require approval for certain action types before execution.  
+
 
 ### 4. Safety Layers
 
