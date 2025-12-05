@@ -317,6 +317,6 @@ class DataCatalog:
 <h3>📖 Additional Documentation</h3>
 <ul>
 <li><a href="https://www.dama.org/cpages/body-of-knowledge" target="_blank" rel="noopener">DAMA DMBOK Framework</a></li>
-<li><a href="https://docs.microsoft.com/azure/architecture/data-guide/" target="_blank" rel="noopener">Data Governance Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/en-gb/azure/architecture/databases/guide/data-obfuscation-with-delphix-in-azure-data-factory" target="_blank" rel="noopener">Data Governance Best Practices</a></li>
 </ul>
 </div>

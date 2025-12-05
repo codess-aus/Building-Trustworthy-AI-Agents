@@ -547,7 +547,7 @@ Explore detailed privacy topics:
 <li><a href="https://learn.microsoft.com/azure/compliance/offerings/" target="_blank" rel="noopener">Azure Privacy Documentation</a></li>
 <li><a href="https://learn.microsoft.com/azure/security/fundamentals/data-encryption-best-practices" target="_blank" rel="noopener">Data Protection in Azure</a></li>
 <li><a href="https://learn.microsoft.com/azure/confidential-computing/" target="_blank" rel="noopener">Azure Confidential Computing</a></li>
-<li><a href="https://www.microsoft.com/trust-center/privacy" target="_blank" rel="noopener">Microsoft Privacy Principles</a></li>
+<li><a href="https://www.microsoft.com/trust-center/privacy" target="_blank" rel="noopener">Data Protection and Privacy</a></li>
 <li><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai" target="_blank" rel="noopener">Responsible AI Privacy</a></li>
 </ul>
 <h3>📖 Additional Documentation</h3>

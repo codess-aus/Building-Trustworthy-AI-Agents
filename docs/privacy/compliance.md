@@ -481,7 +481,7 @@ class ComplianceDocumentation:
 <div class="resource-links">
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
-<li><a href="https://learn.microsoft.com/microsoft-365/compliance/" target="_blank" rel="noopener">Microsoft Compliance Center</a></li>
+<li><a href="https://learn.microsoft.com/microsoft-365/compliance/" target="_blank" rel="noopener">Microsoft Purview</a></li>
 <li><a href="https://learn.microsoft.com/azure/compliance/" target="_blank" rel="noopener">Azure Compliance Documentation</a></li>
 <li><a href="https://learn.microsoft.com/compliance/regulatory/gdpr" target="_blank" rel="noopener">GDPR Compliance in Azure</a></li>
 <li><a href="https://www.microsoft.com/trust-center" target="_blank" rel="noopener">Microsoft Trust Center</a></li>
