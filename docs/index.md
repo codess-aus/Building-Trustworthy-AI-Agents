@@ -79,18 +79,8 @@ This guide is designed for:
 <h3>📚 Microsoft Learn Resources</h3>
 <p>Expand your knowledge with these official Microsoft resources:</p>
 <ul>
-<li><a href="https://learn.microsoft.com/training/modules/introduction-to-ai/" target="_blank" rel="noopener">Introduction to AI</a></li>
-<li><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai" target="_blank" rel="noopener">Responsible AI Principles</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/" target="_blank" rel="noopener">Azure AI Services</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/" target="_blank" rel="noopener">Azure OpenAI Service</a></li>
-<li><a href="https://learn.microsoft.com/security/ai/" target="_blank" rel="noopener">AI Security Best Practices</a></li>
-<li><a href="https://learn.microsoft.com/azure/compliance/offerings/" target="_blank" rel="noopener">Privacy in Azure</a></li>
-</ul>
-<h3>📖 Additional Documentation</h3>
-<ul>
-<li><a href="https://docs.microsoft.com/azure/ai/" target="_blank" rel="noopener">Azure AI Documentation</a></li>
-<li><a href="https://docs.microsoft.com/security/" target="_blank" rel="noopener">Microsoft Security Documentation</a></li>
-<li><a href="https://docs.microsoft.com/compliance/" target="_blank" rel="noopener">Microsoft Privacy Documentation</a></li>
-<li><a href="https://docs.microsoft.com/azure/architecture/" target="_blank" rel="noopener">Azure Architecture Center</a></li>
+<li><a href="https://learn.microsoft.com/en-us/training/courses/ai-900t00/" target="_blank" rel="noopener">Introduction to AI in Azure</a></li>
+<li><a href="https://learn.microsoft.com/training/paths/develop-ai-agents-on-azure/" target="_blank" rel="noopener">Develop AI Agents on Azure</a></li>
+<li><a href="https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/" target="_blank" rel="noopener">Responsible AI Principles in practice</a></li>
 </ul>
 </div>
