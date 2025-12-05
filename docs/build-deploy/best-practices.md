@@ -99,7 +99,7 @@ class IdempotentAgent:
 
 ## Prompt Engineering
 
-<img src="../images/04-prompt-engineering-sketchnote.png" alt="Prompt Engineering" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin: 1em 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<img src="/Building-Trustworthy-AI-Agents/images/04-prompt-engineering-sketchnote.png" alt="Prompt Engineering" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin: 1em 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
 
 ### Write Effective Prompts
 
@@ -251,7 +251,7 @@ class BatchProcessor:
 
 ## Observability and Monitoring
 
-<img src="../images/Observable.png" alt="Observability for AI Systems" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/Observable.png" alt="Observability for AI Systems" style="max-width: 800px; margin: 20px 0;" />
 
 Comprehensive observability enables you to understand your AI agent's behavior, diagnose issues quickly, and ensure reliable operation in production.
 
@@ -296,7 +296,7 @@ class AgentLogger:
 
 ### Metrics Collection
 
-<img src="../images/Measure.png" alt="Measuring AI Agent Performance" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/Measure.png" alt="Measuring AI Agent Performance" style="max-width: 800px; margin: 20px 0;" />
 
 Track important metrics:
 
@@ -325,7 +325,7 @@ class AgentMetrics:
 
 ## Testing Strategies
 
-<img src="../images/EvalMetrics.png" alt="Evaluation Metrics for AI Agents" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/EvalMetrics.png" alt="Evaluation Metrics for AI Agents" style="max-width: 800px; margin: 20px 0;" />
 
 Testing AI agents requires comprehensive evaluation across multiple dimensions. Use systematic testing strategies to ensure your agent performs reliably and safely.
 

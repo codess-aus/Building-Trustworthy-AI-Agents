@@ -389,7 +389,7 @@ asyncio.run(load_test(
 
 ## Health Checks and Monitoring
 
-<img src="../images/Reliability.png" alt="Reliability and Health Monitoring" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/Reliability.png" alt="Reliability and Health Monitoring" style="max-width: 800px; margin: 20px 0;" />
 
 Ensuring reliability requires comprehensive health checks, monitoring, and automated recovery mechanisms to maintain high availability in production.
 

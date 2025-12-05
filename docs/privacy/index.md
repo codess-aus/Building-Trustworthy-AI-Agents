@@ -140,7 +140,7 @@ class PurposeLimitation:
 
 Be clear about data practices:
 
-<img src="../images/Transparency.png" alt="Transparency in AI" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/Transparency.png" alt="Transparency in AI" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Transparency builds trust by making AI systems understandable and accountable*
 
