@@ -166,8 +166,3 @@ Continue to the following sections to dive deeper into specific aspects of build
 </ul>
 <h3>📖 Additional Documentation</h3>
 <ul>
-<li><a href="https://docs.microsoft.com/azure/ai-services/sdks/" target="_blank" rel="noopener">Azure AI SDK Documentation</a></li>
-<li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel Documentation</a></li>
-<li><a href="https://docs.microsoft.com/azure/architecture/ai/" target="_blank" rel="noopener">Agent Architecture Patterns</a></li>
-</ul>
-</div>
