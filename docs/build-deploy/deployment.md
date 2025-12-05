@@ -1,6 +1,6 @@
 # Deployment Strategies
 
-<img src="../images/hero-build.svg" alt="AI Agent Deployment" class="hero-image" role="img" aria-label="Deployment Strategies Hero Image">
+<img src="../images/hero-build.svg" alt="AI Agent Deployment" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Deployment Strategies Hero Image">
 
 ## Overview
 

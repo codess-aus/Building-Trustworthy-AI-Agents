@@ -1,6 +1,6 @@
 # Best Practices
 
-<img src="../images/hero-build.svg" alt="AI Agent Best Practices" class="hero-image" role="img" aria-label="Best Practices Hero Image">
+<img src="../images/hero-build.svg" alt="AI Agent Best Practices" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Best Practices Hero Image">
 
 ## Overview
 
@@ -459,14 +459,7 @@ agent:
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/training/modules/adopt-ai-agent-best-practice/" target="_blank" rel="noopener">Azure AI Agent Best Practices</a></li>
-<li><a href="https://learn.microsoft.com/en-gb/azure/ai-foundry/openai/concepts/prompt-engineering?view=foundry-classic" target="_blank" rel="noopener">Prompt Engineering Guide</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/performance" target="_blank" rel="noopener">Performance Optimization</a></li>
-<li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/monitoring" target="_blank" rel="noopener">Monitoring AI Applications</a></li>
-</ul>
-<h3>📖 Additional Documentation</h3>
-<ul>
-<li><a href="https://docs.microsoft.com/azure/architecture/best-practices/testing" target="_blank" rel="noopener">Testing Best Practices</a></li>
-<li><a href="https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview" target="_blank" rel="noopener">Application Insights</a></li>
-<li><a href="https://docs.microsoft.com/azure/architecture/patterns/" target="_blank" rel="noopener">Azure Architecture Patterns</a></li>
+<li><a href="https://learn.microsoft.com/en-us/training/modules/create-prompts-for-generative-ai-training-tools/" target="_blank" rel="noopener">Generative AI Prompt Engineering Guide</a></li>
+<li><a href="https://github.com/microsoft/generative-ai-for-beginners/tree/main/04-prompt-engineering-fundamentals" target="_blank" rel="noopener">Prompt Engineering for Beginners</a></li>
 </ul>
 </div>
