@@ -582,13 +582,6 @@ az containerapp ingress traffic set \
 <li><a href="https://learn.microsoft.com/azure/container-apps/" target="_blank" rel="noopener">Azure Container Apps Documentation</a></li>
 <li><a href="https://learn.microsoft.com/azure/azure-functions/functions-reference-python" target="_blank" rel="noopener">Azure Functions for Python</a></li>
 <li><a href="https://learn.microsoft.com/azure/aks/best-practices" target="_blank" rel="noopener">AKS Best Practices</a></li>
-<li><a href="https://learn.microsoft.com/azure/devops/pipelines/" target="_blank" rel="noopener">CI/CD for Azure</a></li>
 <li><a href="https://learn.microsoft.com/azure/azure-monitor/" target="_blank" rel="noopener">Azure Monitor and Application Insights</a></li>
-</ul>
-<h3>📖 Additional Documentation</h3>
-<ul>
-<li><a href="https://docs.microsoft.com/azure/container-apps/deploy" target="_blank" rel="noopener">Container Apps Deployment</a></li>
-<li><a href="https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/" target="_blank" rel="noopener">Managed Identity Documentation</a></li>
-<li><a href="https://docs.microsoft.com/azure/devops/" target="_blank" rel="noopener">Azure DevOps Documentation</a></li>
 </ul>
 </div>
