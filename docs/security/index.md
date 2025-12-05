@@ -656,7 +656,7 @@ Explore detailed security topics:
 <div class="resource-links">
 <h3>📚 Microsoft Learn Resources</h3>
 <ul>
-<li><a href="https://learn.microsoft.com/security/ai/" target="_blank" rel="noopener">Azure AI Security Best Practices</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/secure" target="_blank" rel="noopener">Secure AI</a></li>
 <li><a href="https://learn.microsoft.com/azure/ai-services/content-safety/" target="_blank" rel="noopener">Azure AI Content Safety</a></li>
 <li><a href="https://learn.microsoft.com/azure/security/" target="_blank" rel="noopener">Azure Security Documentation</a></li>
 <li><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai" target="_blank" rel="noopener">Responsible AI Security</a></li>
