@@ -167,5 +167,4 @@ Continue to the following sections to dive deeper into specific aspects of build
 <li><a href="https://learn.microsoft.com/semantic-kernel/" target="_blank" rel="noopener">Semantic Kernel</a></li>
 <li><a href="https://microsoftlearning.github.io/mslearn-ai-agents/" target="_blank" rel="noopener">Develop AI Agents in Azure</a></li>
 </ul>
-<h3>📖 Additional Documentation</h3>
-<ul>
+
