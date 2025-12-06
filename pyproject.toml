@@ -1,0 +1,7 @@
+[project]
+name = "Building-Trustworthy-AI-Agents"
+version = "0.1.0"
+description = "A comprehensive guide to building safe, secure, and privacy-focused AI agents."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
