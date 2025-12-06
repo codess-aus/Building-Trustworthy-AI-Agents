@@ -26,7 +26,7 @@ This guide covers three essential areas for building trustworthy AI agents:
 
 2. Install dependencies:
    ```bash
-   pip install mkdocs mkdocs-material
+   uv pip install mkdocs mkdocs-material
    ```
 
 3. Serve the documentation locally:
@@ -96,6 +96,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## [UV structure](https://docs.astral.sh/uv/getting-started/installation/)
+
+
+```
+/
+├── pyproject.toml  # Project file
+├── uv.lock         # Version lock of dependencies
+├── .python-versoin # Version lock of python
+```
+
+Note: main.py was excluded
 
 ## 📝 License
 
