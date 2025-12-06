@@ -47,7 +47,7 @@ jobs:
           uv pip install mkdocs mkdocs-material
       
       - name: Build documentation
-        run: mkdocs build --strict
+        run: uv run mkdocs build --strict
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
