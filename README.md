@@ -104,10 +104,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 /
 ├── pyproject.toml  # Project file
 ├── uv.lock         # Version lock of dependencies
-├── .python-versoin # Version lock of python
+├── .python-version # Version lock of python
 ```
 
 Note: main.py was excluded
+### [pyproject.toml](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#enable-caching)
+
+* replaces the requirements.txt check
 
 ## 📝 License
 
