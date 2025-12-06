@@ -196,15 +196,15 @@ This page provides curated resources referenced throughout this guide to help yo
   
   GDPR compliance resources.
 
-## Community and Support
 
-### Developer Communities
 
-- [**GitHub Discussions**](https://github.com/microsoft/semantic-kernel/discussions)
-  
-  Semantic Kernel community discussions.
+## Certifications & Credentials
 
----
+- [**Applied Skills - Microsoft Applied Skills: Develop generative AI apps with Azure OpenAI and Semantic Kernel**](https://learn.microsoft.com/en-us/credentials/applied-skills/develop-ai-agents-using-microsoft-azure-openai-and-semantic-kernel/)
+
+- [**Beginners Certification - Microsoft AI Fundamentals**](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification)
+
+- [**Intermediate Certification - Microsoft AI Engineer**](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 
 ## Contributing
 

@@ -98,13 +98,7 @@ Critical for trustworthy AI agents, safety layers ensure that actions are approp
 
 RAG combines the power of large language models with external knowledge sources.
 
-```mermaid
-graph LR
-    A[User Query] --> B[Vector Search]
-    B --> C[Retrieve Context]
-    C --> D[LLM Generation]
-    D --> E[Response]
-```
+<img src="/Building-Trustworthy-AI-Agents/images/RAG.png" alt="Retrieval-Augmented Generation Architecture" style="max-width: 800px; margin: 20px 0;" />
 
 **Benefits:**
 - Reduces hallucinations
@@ -115,17 +109,9 @@ graph LR
 
 Coordinate multiple specialized agents for complex tasks.
 
-```mermaid
-graph TD
-    A[Orchestrator] --> B[Research Agent]
-    A --> C[Data Agent]
-    A --> D[Action Agent]
-    B --> E[Results]
-    C --> E
-    D --> E
-```
+<img src="/Building-Trustworthy-AI-Agents/images/multi-agent-systems.png" alt="Multi-Agent Systems Architecture" style="max-width: 800px; margin: 20px 0;" />
 
-**Benefits:**
+**Benefits:
 - Specialization and expertise
 - Parallel processing
 - Modular and maintainable

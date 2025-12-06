@@ -6,7 +6,7 @@
 
 Threat modeling is a structured approach to identifying, quantifying, and addressing security risks in AI agents. It helps you think like an attacker to build better defenses.
 
-<img src="/Building-Trustworthy-AI-Agents/images/Risks.png" alt="AI System Risks" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/risks1.png" alt="AI System Risks" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Understanding the spectrum of risks in AI systems is essential for effective threat modeling*
 
@@ -483,9 +483,13 @@ class AdversarialDefense:
 
 ## Security Testing
 
-<img src="/Building-Trustworthy-AI-Agents/images/RedTeam.png" alt="Red Teaming AI Systems" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/auto-red-teaming.png" alt="Automated Red Teaming for AI Systems" style="max-width: 800px; margin: 20px 0;" />
 
 Security testing for AI agents requires specialized approaches including red teaming, penetration testing, and adversarial testing to identify vulnerabilities before attackers do.
+
+<img src="/Building-Trustworthy-AI-Agents/images/autonomous-attack-systems.png" alt="Autonomous Attack Systems" style="max-width: 800px; margin: 20px 0;" />
+
+<img src="/Building-Trustworthy-AI-Agents/images/recommended-defences.png" alt="Recommended Defences" style="max-width: 800px; margin: 20px 0;" />
 
 ### Penetration Testing Checklist
 

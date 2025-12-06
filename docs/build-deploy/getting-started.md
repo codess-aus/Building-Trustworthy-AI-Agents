@@ -4,6 +4,10 @@
 
 ## Prerequisites
 
+<img src="/Building-Trustworthy-AI-Agents/images/ai-agents.png" alt="AI Agents Overview" style="max-width: 800px; margin: 20px 0;" />
+
+<img src="/Building-Trustworthy-AI-Agents/images/reasoning-engine.png" alt="AI Agent Reasoning Engine" style="max-width: 800px; margin: 20px 0;" />
+
 Before you begin building AI agents, ensure you have the following:
 
 - **Azure Subscription**: Access to Azure AI services

@@ -6,6 +6,8 @@
 
 Deploying AI agents to production requires careful planning and consideration of various deployment patterns, infrastructure requirements, and operational procedures. This guide covers proven strategies for deploying trustworthy AI agents at scale.
 
+<img src="/Building-Trustworthy-AI-Agents/images/prepare-for-prod.png" alt="Preparing for Production" style="max-width: 800px; margin: 20px 0;" />
+
 ## Deployment Patterns
 
 ### 1. Azure Container Apps
@@ -389,7 +391,7 @@ asyncio.run(load_test(
 
 ## Health Checks and Monitoring
 
-<img src="/Building-Trustworthy-AI-Agents/images/Reliability.png" alt="Reliability and Health Monitoring" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/reliability-under-uncertainty.png" alt="Reliability and Health Monitoring" style="max-width: 800px; margin: 20px 0;" />
 
 Ensuring reliability requires comprehensive health checks, monitoring, and automated recovery mechanisms to maintain high availability in production.
 

@@ -1,12 +1,12 @@
 # Welcome to Building Trustworthy AI Agents with Michelle Sandford
 
-<img src="/Building-Trustworthy-AI-Agents/images/hero-main.svg" alt="Building Trustworthy AI Agents" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Building Trustworthy AI Agents Hero Image">
+<img src="/Building-Trustworthy-AI-Agents/images/Building-Trustworthy-Agents.png" alt="Building Trustworthy AI Agents" style="width: 100%; max-height: 350px; object-fit: contain; border-radius: 8px; margin-bottom: 2em; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" role="img" aria-label="Building Trustworthy AI Agents Hero Image">
 
 ## Overview
 
 Welcome to the comprehensive guide on building trustworthy AI agents. In today's rapidly evolving AI landscape, creating agents that are not only effective but also safe, secure, and privacy-conscious is paramount. This guide will walk you through the essential principles and practices for developing AI agents that organizations and users can trust.
 
-<img src="/Building-Trustworthy-AI-Agents/images/ResponsibleAI.png" alt="Responsible AI Framework" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/Responsibility-Foundation.png" alt="Responsible AI Framework" style="max-width: 800px; margin: 20px 0;" />
 
 *Figure: Building responsible AI requires attention to multiple dimensions of trustworthiness*
 

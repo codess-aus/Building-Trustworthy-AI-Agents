@@ -8,6 +8,8 @@ Building production-ready AI agents requires more than just functional code. Thi
 
 ## Design Principles
 
+<img src="/Building-Trustworthy-AI-Agents/images/guardrails.png" alt="AI Agent Guardrails" style="max-width: 800px; margin: 20px 0;" />
+
 ### 1. Separation of Concerns
 
 Organize your agent into distinct layers:
@@ -99,7 +101,7 @@ class IdempotentAgent:
 
 ## Prompt Engineering
 
-<img src="/Building-Trustworthy-AI-Agents/images/04-prompt-engineering-sketchnote.png" alt="Prompt Engineering" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin: 1em 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<img src="/Building-Trustworthy-AI-Agents/images/prompt-engineering.png" alt="Prompt Engineering" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin: 1em 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
 
 ### Write Effective Prompts
 
@@ -253,6 +255,10 @@ class BatchProcessor:
 
 <img src="/Building-Trustworthy-AI-Agents/images/Observable.png" alt="Observability for AI Systems" style="max-width: 800px; margin: 20px 0;" />
 
+<img src="/Building-Trustworthy-AI-Agents/images/knowledge-base.png" alt="Knowledge Base Architecture" style="max-width: 800px; margin: 20px 0;" />
+
+<img src="/Building-Trustworthy-AI-Agents/images/action-executors.png" alt="Action Executors" style="max-width: 800px; margin: 20px 0;" />
+
 Comprehensive observability enables you to understand your AI agent's behavior, diagnose issues quickly, and ensure reliable operation in production.
 
 ### Comprehensive Logging
@@ -325,9 +331,11 @@ class AgentMetrics:
 
 ## Testing Strategies
 
-<img src="/Building-Trustworthy-AI-Agents/images/EvalMetrics.png" alt="Evaluation Metrics for AI Agents" style="max-width: 800px; margin: 20px 0;" />
+<img src="/Building-Trustworthy-AI-Agents/images/measurement-challenges.png" alt="Evaluation Metrics and Measurement Challenges" style="max-width: 800px; margin: 20px 0;" />
 
 Testing AI agents requires comprehensive evaluation across multiple dimensions. Use systematic testing strategies to ensure your agent performs reliably and safely.
+
+<img src="/Building-Trustworthy-AI-Agents/images/continuous-eval.png" alt="Continuous Evaluation Pipeline" style="max-width: 800px; margin: 20px 0;" />
 
 ### Unit Tests
 
@@ -361,6 +369,12 @@ class TestAIAgent:
 ```
 
 ### Integration Tests
+
+<img src="/Building-Trustworthy-AI-Agents/images/automated-eval.png" alt="Automated Evaluation" style="max-width: 800px; margin: 20px 0;" />
+
+<img src="/Building-Trustworthy-AI-Agents/images/auto-eval.png" alt="Automated Evaluation Pipeline" style="max-width: 800px; margin: 20px 0;" />
+
+<img src="/Building-Trustworthy-AI-Agents/images/manual-eval.png" alt="Manual Evaluation Process" style="max-width: 800px; margin: 20px 0;" />
 
 ```python
 class TestAgentIntegration:
